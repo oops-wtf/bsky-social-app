@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bluesky-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-02-18 05:23\n"
+"PO-Revision-Date: 2025-02-18 06:59\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -774,7 +774,7 @@ msgstr "Siapa saja dapat berinteraksi"
 #: src/screens/Settings/AppIconSettings/SettingsListItem.tsx:18
 #: src/screens/Settings/AppIconSettings/SettingsListItem.tsx:23
 msgid "App Icon"
-msgstr "Simbol Aplikasi"
+msgstr "Ikon Aplikasi"
 
 #: src/screens/Settings/LanguageSettings.tsx:80
 msgid "App Language"
@@ -1093,7 +1093,7 @@ msgstr "Bluesky lebih seru jika bersama teman!"
 
 #: src/screens/Takendown.tsx:217
 msgid "Bluesky Social Terms of Service"
-msgstr "Kebijakan Layanan Bluesky Social"
+msgstr "Ketentuan Layanan Bluesky Social"
 
 #: src/components/StarterPack/ProfileStarterPacks.tsx:299
 msgid "Bluesky will choose a set of recommended accounts from people in your network."
@@ -1109,7 +1109,7 @@ msgstr "Bluesky+"
 
 #: src/screens/Settings/AppIconSettings/index.tsx:102
 msgid "Bluesky+ icons"
-msgstr "Simbol Bluesky+"
+msgstr "Ikon Bluesky+"
 
 #: src/lib/moderation/useLabelBehaviorDescription.ts:53
 msgid "Blur images"
@@ -2492,15 +2492,15 @@ msgstr "Aktifkan hanya sumber ini saja"
 #: src/screens/Settings/ContentAndMediaSettings.tsx:123
 #: src/screens/Settings/ContentAndMediaSettings.tsx:137
 msgid "Enable trending topics"
-msgstr "Nyalakan topik trending"
+msgstr "Aktifkan tren topik"
 
 #: src/screens/Settings/ContentAndMediaSettings.tsx:158
 msgid "Enable trending videos in your Discover feed"
-msgstr "Aktfikan video trending dalam feed Discover Anda"
+msgstr "Aktifkan tren video dalam feed Discover Anda"
 
 #: src/screens/Settings/ContentAndMediaSettings.tsx:144
 msgid "Enable trending videos in your Discover feed."
-msgstr "Aktifkan video trending dalam feed Discover Anda."
+msgstr "Aktifkan tren video dalam feed Discover Anda."
 
 #: src/screens/Messages/Settings.tsx:130
 #: src/screens/Messages/Settings.tsx:133
@@ -3313,17 +3313,17 @@ msgstr "Sembunyikan balasan ini?"
 #: src/screens/Search/components/ExploreTrendingTopics.tsx:83
 #: src/view/shell/desktop/SidebarTrendingTopics.tsx:62
 msgid "Hide trending topics"
-msgstr "Sembunyikan topik trending"
+msgstr "Sembunyikan tren topik"
 
 #: src/components/interstitials/Trending.tsx:129
 #: src/screens/Search/components/ExploreTrendingTopics.tsx:135
 #: src/view/shell/desktop/SidebarTrendingTopics.tsx:108
 msgid "Hide trending topics?"
-msgstr "Sembunyikan topik trending?"
+msgstr "Sembunyikan tren topik?"
 
 #: src/components/interstitials/TrendingVideos.tsx:138
 msgid "Hide trending videos?"
-msgstr "Sembunyikan video trending?"
+msgstr "Sembunyikan tren video?"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:592
 msgid "Hide user list"
@@ -4922,7 +4922,7 @@ msgstr "Sematkan feed"
 
 #: src/screens/Search/components/ExploreTrendingVideos.tsx:167
 msgid "Pin the trending videos feed to your home screen for easy access"
-msgstr "Sematkan feed video trending pada beranda Anda untuk kemudahan akses"
+msgstr "Sematkan feed tren video pada beranda Anda untuk memudahkan akses"
 
 #: src/view/screens/ProfileList.tsx:685
 msgid "Pin to home"
@@ -7306,7 +7306,7 @@ msgstr "Trending"
 #: src/components/interstitials/TrendingVideos.tsx:88
 #: src/screens/Search/components/ExploreTrendingVideos.tsx:106
 msgid "Trending Videos"
-msgstr "Video Trending"
+msgstr "Tren Video"
 
 #: src/view/com/util/error/ErrorScreen.tsx:103
 msgctxt "action"
@@ -8000,7 +8000,7 @@ msgstr "Apa nama paket pemula Anda?"
 
 #: src/screens/Search/components/ExploreTrendingTopics.tsx:79
 msgid "What people are posting about."
-msgstr "Apa yang orang-orang sedang posting."
+msgstr "Apa yang sedang dibicarakan orang."
 
 #: src/view/com/auth/SplashScreen.tsx:38
 #: src/view/com/auth/SplashScreen.web.tsx:99
@@ -8032,11 +8032,11 @@ msgstr "Waduh!"
 #: src/components/interstitials/TrendingVideos.tsx:127
 #: src/screens/Search/components/ExploreTrendingVideos.tsx:147
 msgid "Whoops! Trending videos failed to load."
-msgstr "Ups! Video trending gagal memuat."
+msgstr "Waduh! Tren video gagal dimuat."
 
 #: src/screens/Takendown.tsx:173
 msgid "Why are you appealing?"
-msgstr "Mengapa Anda ajukan banding?"
+msgstr "Mengapa Anda mengajukan banding?"
 
 #: src/components/ReportDialog/SelectReportOptionView.tsx:42
 msgid "Why should this content be reviewed?"
@@ -8424,7 +8424,7 @@ msgstr "Semua catatan data publik dalam repositori akun Anda dapat diunduh sebag
 
 #: src/screens/Takendown.tsx:214
 msgid "Your account was found to be in violation of the <0>Bluesky Social Terms of Service</0>. You have been sent an email outlining the specific violation and suspension period, if applicable. You can appeal this decision if you believe it was made in error."
-msgstr "Akun Anda ditemukan melanggar <0>Kebijakan Layanan Bluesky Social</0>. Anda telah dikirimkan email yang menguraikan pelanggaran specific dan periode tangguhan, jika berlaku. Anda dapat mengajukan banding atas keputusan ini jika Anda yakin bahwa keputusan tersebut dibuat karena kesalahan."
+msgstr "Akun Anda dinyatakan telah melanggar <0>Ketentuan Layanan Bluesky Social</0>. Sebuah email telah dikirimkan kepada Anda berisi rincian pelanggaran serta durasi penangguhan, jika ada. Jika Anda merasa ini adalah kesalahan, Anda berhak mengajukan banding terhadap keputusan tersebut."
 
 #: src/screens/Takendown.tsx:154
 msgid "Your appeal has been submitted. If your appeal succeeds, you will receive an email."
