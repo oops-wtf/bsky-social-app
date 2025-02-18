@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bluesky-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-02-18 08:24\n"
+"PO-Revision-Date: 2025-02-18 09:20\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -1362,7 +1362,7 @@ msgstr "Periksa status saya"
 
 #: src/screens/Login/LoginForm.tsx:301
 msgid "Check your email for a sign in code and enter it here."
-msgstr ""
+msgstr "Periksa email Anda untuk mendapatkan kode login dan masukkan di sini."
 
 #: src/view/com/modals/DeleteAccount.tsx:213
 msgid "Check your inbox for an email with the confirmation code to enter below:"
@@ -1439,7 +1439,7 @@ msgstr "Klik untuk mengaktifkan kutipan pada postingan ini."
 
 #: src/components/RichTextTag.tsx:54
 msgid "Click to open tag menu for {tag}"
-msgstr "Klik untuk membuka menu tagar untuk {tag}"
+msgstr "Klik untuk membuka menu tagar {tag}"
 
 #: src/components/dms/MessageItem.tsx:241
 msgid "Click to retry failed message"
@@ -1518,7 +1518,7 @@ msgstr "Menutup peringatan pembaruan kata sandi"
 #: src/view/com/composer/text-input/web/EmojiPicker.web.tsx:138
 #: src/view/com/composer/text-input/web/EmojiPicker.web.tsx:174
 msgid "Closes the emoji picker"
-msgstr ""
+msgstr "Menutup pemilih emoji"
 
 #: src/view/com/lightbox/ImageViewing/components/ImageDefaultHeader.tsx:32
 msgid "Closes viewer for header image"
@@ -1742,7 +1742,7 @@ msgstr "Tersalin!"
 
 #: src/screens/Settings/AboutSettings.tsx:73
 msgid "Copies build version to clipboard"
-msgstr ""
+msgstr "Menyalin versi build ke papan klip"
 
 #: src/components/StarterPack/QrCodeDialog.tsx:175
 msgid "Copy"
@@ -1755,12 +1755,12 @@ msgstr "Salin Sandi Aplikasi"
 #: src/view/com/profile/ProfileMenu.tsx:344
 #: src/view/com/profile/ProfileMenu.tsx:347
 msgid "Copy at:// URI"
-msgstr ""
+msgstr "Salin URI at://"
 
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:674
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:676
 msgid "Copy author DID"
-msgstr ""
+msgstr "Salin DID pemosting"
 
 #: src/components/dialogs/Embed.tsx:122
 #: src/components/dialogs/Embed.tsx:141
@@ -1802,7 +1802,7 @@ msgstr "Salin teks pesan"
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:667
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:669
 msgid "Copy post at:// URI"
-msgstr ""
+msgstr "Salin URI postingan at://"
 
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:422
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:424
@@ -3560,7 +3560,7 @@ msgstr "Interaksi dibatasi"
 
 #: src/screens/Moderation/index.tsx:209
 msgid "Interaction settings"
-msgstr ""
+msgstr "Pengaturan interaksi"
 
 #: src/screens/Login/LoginForm.tsx:156
 #: src/screens/Settings/components/DisableEmail2FADialog.tsx:70
@@ -3788,7 +3788,7 @@ msgstr "Terang"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:514
 msgid "Like"
-msgstr "Sukai"
+msgstr "Suka"
 
 #: src/view/com/util/post-ctrls/PostCtrls.tsx:321
 msgid "Like ({0, plural, one {# like} other {# likes}})"
@@ -4775,7 +4775,7 @@ msgstr "Membuka kamera pada perangkat"
 
 #: src/screens/Settings/AccountSettings.tsx:127
 msgid "Opens change handle dialog"
-msgstr ""
+msgstr "Membuka dialog ubah panggilan"
 
 #: src/view/com/post-thread/PostThreadComposePrompt.tsx:35
 msgid "Opens composer"
@@ -4787,7 +4787,7 @@ msgstr "Membuka galeri foto perangkat"
 
 #: src/view/com/composer/Composer.tsx:1244
 msgid "Opens emoji picker"
-msgstr ""
+msgstr "Membuka pemilih emoji"
 
 #: src/view/com/auth/SplashScreen.tsx:49
 #: src/view/com/auth/SplashScreen.web.tsx:111
@@ -4797,7 +4797,7 @@ msgstr "Membuka alur untuk membuat akun baru Bluesky"
 #: src/view/com/auth/SplashScreen.tsx:63
 #: src/view/com/auth/SplashScreen.web.tsx:125
 msgid "Opens flow to sign in to your existing Bluesky account"
-msgstr ""
+msgstr "Membuka alur untuk masuk ke akun Bluesky Anda yang sudah ada"
 
 #: src/view/com/composer/photos/SelectGifBtn.tsx:36
 msgid "Opens GIF select dialog"
@@ -4805,7 +4805,7 @@ msgstr "Membuka dialog pemilihan GIF"
 
 #: src/screens/Settings/Settings.tsx:208
 msgid "Opens helpdesk in browser"
-msgstr ""
+msgstr "Membuka bantuan dalam peramban"
 
 #: src/view/com/modals/InviteCodes.tsx:173
 msgid "Opens list of invite codes"
@@ -5013,11 +5013,11 @@ msgstr "Putar Video"
 
 #: src/view/com/util/post-embeds/GifEmbed.tsx:42
 msgid "Plays or pauses the GIF"
-msgstr ""
+msgstr "Memutar atau menjeda GIF"
 
 #: src/view/com/util/post-embeds/VideoEmbedInner/VideoEmbedInnerNative.tsx:141
 msgid "Plays or pauses the video"
-msgstr ""
+msgstr "Memutar atau menjeda video"
 
 #: src/view/com/util/post-embeds/ExternalGifEmbed.tsx:106
 msgid "Plays the GIF"
@@ -5025,7 +5025,7 @@ msgstr "Putar GIF"
 
 #: src/view/com/util/post-embeds/ExternalPlayerEmbed.tsx:59
 msgid "Plays the video"
-msgstr ""
+msgstr "Memutar video"
 
 #: src/screens/Signup/state.ts:217
 msgid "Please choose your handle."
@@ -5166,7 +5166,7 @@ msgstr "Pengaturan interaksi postingan"
 #: src/Navigation.tsx:164
 #: src/screens/ModerationInteractionSettings/index.tsx:34
 msgid "Post Interaction Settings"
-msgstr ""
+msgstr "Pengaturan Interaksi Postingan"
 
 #: src/view/com/composer/select-language/SelectLangBtn.tsx:89
 msgid "Post language"
@@ -5545,7 +5545,7 @@ msgstr "Dihapus dari daftar feed Anda"
 
 #: src/view/screens/Search/Search.tsx:1083
 msgid "Removes profile from search history"
-msgstr ""
+msgstr "Menghapus profil dari riwayat pencarian"
 
 #: src/view/com/util/post-embeds/QuoteEmbed.tsx:286
 msgid "Removes quoted post"
@@ -5767,7 +5767,7 @@ msgstr "Wajibkan teks alt sebelum memposting"
 
 #: src/screens/Settings/components/Email2FAToggle.tsx:54
 msgid "Require an email code to sign in to your account."
-msgstr ""
+msgstr "Gunakan kode email untuk masuk ke akun Anda."
 
 #: src/screens/Signup/StepInfo/index.tsx:153
 msgid "Required for this provider"
@@ -5811,7 +5811,7 @@ msgstr "Reset kata sandi"
 
 #: src/screens/Login/LoginForm.tsx:324
 msgid "Retries sign in"
-msgstr ""
+msgstr "Mencoba masuk kembali"
 
 #: src/view/com/util/error/ErrorMessage.tsx:62
 #: src/view/com/util/error/ErrorScreen.tsx:99
@@ -5856,7 +5856,7 @@ msgstr "Kembali ke halaman sebelumnya"
 
 #: src/screens/StarterPack/Wizard/index.tsx:287
 msgid "Returns to the previous step"
-msgstr ""
+msgstr "Kembali ke langkah sebelumnya"
 
 #: src/components/dialogs/BirthDateSettings.tsx:120
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:479
@@ -5971,7 +5971,7 @@ msgstr "Cari"
 #: src/Navigation.tsx:215
 #: src/screens/Profile/ProfileSearch.tsx:34
 msgid "Search @{0}'s posts"
-msgstr ""
+msgstr "Cari postingan @{0}"
 
 #: src/components/ProgressGuide/FollowDialog.tsx:745
 msgid "Search by name or interest"
@@ -6034,7 +6034,7 @@ msgstr "Cari..."
 #: src/components/dms/dialogs/SearchablePeopleList.tsx:508
 #: src/components/ProgressGuide/FollowDialog.tsx:765
 msgid "Searches for profiles"
-msgstr ""
+msgstr "Mencari profil"
 
 #: src/view/com/modals/ChangeEmail.tsx:105
 msgid "Security Step Required"
@@ -6158,7 +6158,7 @@ msgstr "Pilih bahasa yang disukai untuk terjemahan dalam feed Anda."
 
 #: src/view/com/util/forms/DropdownButton.tsx:297
 msgid "Selects option {0} of {numItems}"
-msgstr ""
+msgstr "Memilih opsi {0} dari {numItems}"
 
 #: src/components/dms/ChatEmptyPill.tsx:38
 msgid "Send a neat website!"
@@ -6411,7 +6411,7 @@ msgstr "Tampilkan balasan"
 
 #: src/view/com/post-thread/PostThread.tsx:622
 msgid "Show replies as"
-msgstr "Tampilkan balasan sebagai"
+msgstr "Tampilkan balasan"
 
 #: src/screens/Settings/ThreadPreferences.tsx:151
 msgid "Show replies as threaded"
@@ -7816,7 +7816,7 @@ msgstr "Video gagal diproses"
 
 #: src/Navigation.tsx:447
 msgid "Video Feed"
-msgstr "Feed video"
+msgstr "Feed Video"
 
 #: src/components/VideoPostCard.tsx:116
 msgid "Video from {0}: {text}"
@@ -7966,7 +7966,7 @@ msgstr ""
 
 #: src/components/VideoPostCard.tsx:115
 msgid "Views video in immersive mode"
-msgstr ""
+msgstr "Melihat video dalam mode imersif"
 
 #: src/view/com/modals/LinkWarning.tsx:89
 #: src/view/com/modals/LinkWarning.tsx:95
@@ -8499,7 +8499,7 @@ msgstr "Anda telah mencapai batas harian unggahan video (terlalu banyak video)"
 
 #: src/screens/VideoFeed/index.tsx:1084
 msgid "You've run out of videos to watch. Maybe it's a good time to take a break?"
-msgstr "Anda kehabisan video untuk ditonton. Mungkin sudah saatnya untuk istirahat?"
+msgstr "Anda kehabisan video untuk ditonton. Mungkin sudah saatnya untuk beristirahat?"
 
 #: src/screens/Signup/index.tsx:140
 msgid "Your account"
