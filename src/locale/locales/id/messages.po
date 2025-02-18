@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bluesky-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-02-18 07:31\n"
+"PO-Revision-Date: 2025-02-18 08:24\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -591,7 +591,7 @@ msgstr "Semua akun telah diikuti!"
 #: src/view/screens/Search/Search.tsx:399
 #: src/view/screens/Search/Search.tsx:401
 msgid "All languages"
-msgstr ""
+msgstr "Semua bahasa"
 
 #: src/view/screens/Feeds.tsx:702
 msgid "All the feeds you've saved, right in one place."
@@ -1018,7 +1018,7 @@ msgstr "Blokir pengguna"
 
 #: src/components/dms/ReportDialog.tsx:329
 msgid "Block User"
-msgstr "Blokir pengguna"
+msgstr "Blokir Pengguna"
 
 #: src/view/com/util/post-embeds/QuoteEmbed.tsx:83
 msgid "Blocked"
@@ -1152,7 +1152,7 @@ msgstr "Jelajahi postingan yang ditandai dengan {displayName}"
 
 #: src/components/TrendingTopics.tsx:195
 msgid "Browse starter pack {displayName}"
-msgstr ""
+msgstr "Telusuri paket pemula {displayName}"
 
 #: src/components/TrendingTopics.tsx:232
 msgid "Browse topic {displayName}"
@@ -1245,7 +1245,7 @@ msgstr "Batal mengutip postingan"
 
 #: src/screens/Deactivated.tsx:151
 msgid "Cancel reactivation and sign out"
-msgstr ""
+msgstr "Batalkan pengaktifan kembali dan keluar"
 
 #: src/view/com/modals/ListAddRemoveUsers.tsx:88
 #: src/view/screens/Search/Search.tsx:879
@@ -1322,7 +1322,7 @@ msgstr "Ubah alamat email Anda"
 
 #: src/screens/Settings/AppIconSettings/index.tsx:216
 msgid "Changes app icon"
-msgstr ""
+msgstr "Mengganti ikon aplikasi"
 
 #: src/components/forms/HostingProvider.tsx:50
 #: src/components/forms/HostingProvider.tsx:66
@@ -1411,7 +1411,7 @@ msgstr "Pilih kata sandi Anda"
 
 #: src/screens/Signup/index.tsx:142
 msgid "Choose your username"
-msgstr "Panggilan Anda"
+msgstr "Pilih nama pengguna Anda"
 
 #: src/screens/Settings/Settings.tsx:351
 msgid "Clear all storage data"
@@ -2091,11 +2091,11 @@ msgstr "Lepaskan kutipan ini?"
 
 #: src/screens/Settings/AboutSettings.tsx:80
 msgid "Developer mode disabled"
-msgstr ""
+msgstr "Mode pengembang dinonaktifkan"
 
 #: src/screens/Settings/AboutSettings.tsx:79
 msgid "Developer mode enabled"
-msgstr ""
+msgstr "Mode pengembang diaktifkan"
 
 #: src/screens/Settings/Settings.tsx:242
 #: src/screens/Settings/Settings.tsx:245
@@ -2609,7 +2609,7 @@ msgstr "Masukkan alamat email baru Anda di bawah ini."
 
 #: src/screens/Login/LoginForm.tsx:243
 msgid "Enter your password"
-msgstr ""
+msgstr "Masukkan kata sandi"
 
 #: src/screens/Login/index.tsx:123
 msgid "Enter your username and password"
@@ -3719,7 +3719,7 @@ msgstr "Pelajari lebih lanjut mengenai hosting mandiri PDS Anda."
 
 #: src/components/moderation/ContentHider.tsx:149
 msgid "Learn more about the moderation applied to this content"
-msgstr ""
+msgstr "Pelajari lebih lanjut tentang moderasi yang diterapkan pada konten ini"
 
 #: src/components/moderation/ContentHider.tsx:215
 msgid "Learn more about the moderation applied to this content."
@@ -5999,7 +5999,7 @@ msgstr "Cari feed yang ingin Anda sarankan kepada orang lain."
 
 #: src/view/screens/Search/Search.tsx:872
 msgid "Search for posts, users, or feeds"
-msgstr ""
+msgstr "Cari postingan, pengguna, atau feed"
 
 #: src/view/com/modals/ListAddRemoveUsers.tsx:71
 msgid "Search for users"
@@ -6011,12 +6011,12 @@ msgstr "Cari GIF"
 
 #: src/screens/Profile/ProfileSearch.tsx:33
 msgid "Search my posts"
-msgstr ""
+msgstr "Cari postingan saya"
 
 #: src/view/com/profile/ProfileMenu.tsx:228
 #: src/view/com/profile/ProfileMenu.tsx:231
 msgid "Search Posts"
-msgstr ""
+msgstr "Cari Postingan"
 
 #: src/components/dms/dialogs/SearchablePeopleList.tsx:507
 #: src/components/ProgressGuide/FollowDialog.tsx:764
@@ -6029,7 +6029,7 @@ msgstr "Cari di Tenor"
 
 #: src/screens/Profile/ProfileSearch.tsx:35
 msgid "Search..."
-msgstr ""
+msgstr "Cari..."
 
 #: src/components/dms/dialogs/SearchablePeopleList.tsx:508
 #: src/components/ProgressGuide/FollowDialog.tsx:765
@@ -6257,7 +6257,7 @@ msgstr "Pengaturan"
 
 #: src/screens/ModerationInteractionSettings/index.tsx:102
 msgid "Settings saved"
-msgstr ""
+msgstr "Pengaturan disimpan"
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:174
 msgid "Sexual activity or erotic nudity."
@@ -6446,16 +6446,16 @@ msgstr "Tampilkan peringatan dan saring dari feed"
 
 #: src/view/com/post-thread/PostThreadItem.tsx:810
 msgid "Shows information about when this post was created"
-msgstr ""
+msgstr "Menampilkan informasi tentang kapan postingan ini dibuat"
 
 #: src/screens/Settings/Settings.tsx:104
 msgid "Shows other accounts you can switch to"
-msgstr ""
+msgstr "Menampilkan akun lain yang dapat Anda alihkan"
 
 #: src/components/moderation/ContentHider.tsx:152
 #: src/components/moderation/PostHider.tsx:79
 msgid "Shows the content"
-msgstr ""
+msgstr "Menampilkan konten"
 
 #: src/components/dialogs/Signin.tsx:97
 #: src/components/dialogs/Signin.tsx:99
@@ -6490,15 +6490,15 @@ msgstr "Masuk atau buat akun Anda untuk bergabung dalam percakapan!"
 #: src/screens/Deactivated.tsx:202
 #: src/screens/Deactivated.tsx:208
 msgid "Sign in or sign up"
-msgstr ""
+msgstr "Masuk atau daftar"
 
 #: src/components/AccountList.tsx:65
 msgid "Sign in to account that is not listed"
-msgstr ""
+msgstr "Masuk ke akun yang tidak tercantum dalam daftar"
 
 #: src/components/dialogs/Signin.tsx:46
 msgid "Sign in to Bluesky or create a new account"
-msgstr ""
+msgstr "Masuk ke Bluesky atau buat akun baru"
 
 #: src/screens/Settings/Settings.tsx:225
 #: src/screens/Settings/Settings.tsx:227
@@ -6514,7 +6514,7 @@ msgstr "Keluar"
 
 #: src/screens/Takendown.tsx:88
 msgid "Sign Out"
-msgstr ""
+msgstr "Keluar"
 
 #: src/screens/Settings/Settings.tsx:256
 #: src/view/shell/desktop/LeftNav.tsx:205
@@ -6593,7 +6593,7 @@ msgstr "Ada masalah? Beri tahu kami."
 #: src/App.native.tsx:121
 #: src/App.web.tsx:97
 msgid "Sorry! Your session expired. Please sign in again."
-msgstr ""
+msgstr "Maaf! Sesi Anda telah berakhir. Silakan masuk lagi."
 
 #: src/screens/Settings/ThreadPreferences.tsx:55
 msgid "Sort replies"
@@ -7132,7 +7132,7 @@ msgstr "Konten ini tidak dapat dilihat tanpa akun Bluesky."
 
 #: src/screens/Messages/components/ChatListItem.tsx:284
 msgid "This conversation is with a deleted or a deactivated account. Press for options"
-msgstr ""
+msgstr "Percakapan ini dilakukan dengan akun yang telah dihapus atau dinonaktifkan. Tekan untuk opsi lain"
 
 #: src/screens/Settings/components/ExportCarDialog.tsx:94
 msgid "This feature is in beta. You can read more about repository exports in <0>this blogpost</0>."
@@ -7397,7 +7397,7 @@ msgstr "Autentikasi Dua Faktor (2FA)"
 
 #: src/screens/Signup/StepHandle.tsx:118
 msgid "Type your desired username"
-msgstr "Masukkan panggilan Anda"
+msgstr "Ketik nama pengguna yang Anda diinginkan"
 
 #: src/screens/Messages/components/MessageInput.tsx:148
 msgid "Type your message here"
@@ -7756,7 +7756,7 @@ msgstr "Pengguna yang telah menyukai konten atau profil"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:433
 msgid "Users you follow"
-msgstr ""
+msgstr "Pengguna yang saya ikuti"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:419
 msgid "Value:"
@@ -8570,7 +8570,7 @@ msgstr "Suka pertama Anda!"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:443
 msgid "Your followers"
-msgstr ""
+msgstr "Pengikut Anda"
 
 #: src/view/com/posts/FollowingEmptyState.tsx:43
 msgid "Your following feed is empty! Follow more users to see what's happening."
@@ -8582,7 +8582,7 @@ msgstr "Panggilan lengkap Anda akan menjadi <0>@{0}</0>"
 
 #: src/screens/Signup/StepHandle.tsx:129
 msgid "Your full username will be"
-msgstr "Panggilan lengkap Anda akan menjadi"
+msgstr "Nama pengguna Anda akan menjadi"
 
 #: src/components/dialogs/MutedWords.tsx:369
 msgid "Your muted words"
