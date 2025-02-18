@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bluesky-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-02-18 09:20\n"
+"PO-Revision-Date: 2025-02-18 10:48\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -1327,7 +1327,7 @@ msgstr "Mengganti ikon aplikasi"
 #: src/components/forms/HostingProvider.tsx:50
 #: src/components/forms/HostingProvider.tsx:66
 msgid "Changes hosting provider"
-msgstr ""
+msgstr "Mengganti penyedia hosting"
 
 #: src/Navigation.tsx:406
 #: src/view/shell/bottom-bar/BottomBar.tsx:204
@@ -3383,7 +3383,7 @@ msgstr "Sembunyikan daftar pengguna"
 #: src/components/moderation/ContentHider.tsx:151
 #: src/components/moderation/PostHider.tsx:79
 msgid "Hides the content"
-msgstr ""
+msgstr "Menyembunyikan konten"
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:117
 msgid "Hmm, some kind of issue occurred when contacting the feed server. Please let the feed owner know about this issue."
@@ -7682,7 +7682,7 @@ msgstr "Gunakan yang direkomendasikan"
 
 #: src/screens/Settings/components/AddAppPasswordDialog.tsx:190
 msgid "Use this to sign in to the other app along with your handle."
-msgstr ""
+msgstr "Gunakan sandi ini untuk masuk ke aplikasi lain bersama dengan panggilan Anda."
 
 #: src/view/com/modals/InviteCodes.tsx:201
 msgid "Used by:"
