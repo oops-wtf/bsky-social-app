@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bluesky-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-02-22 05:46\n"
+"PO-Revision-Date: 2025-02-24 04:52\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -506,7 +506,7 @@ msgstr "Tambahkan kata yang akan dibisukan ke pengaturan terpilih"
 msgid "Add muted words and tags"
 msgstr "Tambah kata dan tagar untuk dibisukan"
 
-#: src/view/com/composer/Composer.tsx:1257
+#: src/view/com/composer/Composer.tsx:1258
 msgid "Add new post"
 msgstr "Tambahkan postingan baru"
 
@@ -1573,7 +1573,7 @@ msgstr "Buat postingan dengan panjang hingga {MAX_GRAPHEME_LENGTH} karakter"
 msgid "Compose reply"
 msgstr "Tulis balasan"
 
-#: src/view/com/composer/Composer.tsx:1651
+#: src/view/com/composer/Composer.tsx:1652
 msgid "Compressing video..."
 msgstr "Mengompresi video..."
 
@@ -2174,7 +2174,7 @@ msgstr "Temukan Feed Baru"
 msgid "Dismiss"
 msgstr "Tutup"
 
-#: src/view/com/composer/Composer.tsx:1575
+#: src/view/com/composer/Composer.tsx:1576
 msgid "Dismiss error"
 msgstr "Abaikan kesalahan"
 
@@ -2621,7 +2621,7 @@ msgstr "Masukkan nama pengguna dan kata sandi Anda"
 msgid "Enters full screen"
 msgstr ""
 
-#: src/view/com/composer/Composer.tsx:1660
+#: src/view/com/composer/Composer.tsx:1661
 #: src/view/com/util/error/ErrorScreen.tsx:42
 msgid "Error"
 msgstr "Galat"
@@ -3630,7 +3630,7 @@ msgstr "Sudah benar"
 msgid "It's just you right now! Add more people to your starter pack by searching above."
 msgstr "Hanya ada Anda saat ini! Tambahkan lebih banyak orang ke paket pemula Anda melalui pencarian di atas."
 
-#: src/view/com/composer/Composer.tsx:1594
+#: src/view/com/composer/Composer.tsx:1595
 msgid "Job ID: {0}"
 msgstr "ID Kerja: {0}"
 
@@ -4716,7 +4716,7 @@ msgid "Open drawer menu"
 msgstr ""
 
 #: src/screens/Messages/components/MessageInput.web.tsx:181
-#: src/view/com/composer/Composer.tsx:1243
+#: src/view/com/composer/Composer.tsx:1244
 msgid "Open emoji picker"
 msgstr "Buka pemilih emoji"
 
@@ -4794,7 +4794,7 @@ msgstr "Membuka penyusun postingan"
 msgid "Opens device photo gallery"
 msgstr "Membuka galeri foto perangkat"
 
-#: src/view/com/composer/Composer.tsx:1244
+#: src/view/com/composer/Composer.tsx:1245
 msgid "Opens emoji picker"
 msgstr "Membuka pemilih emoji"
 
@@ -5275,7 +5275,7 @@ msgstr "Privasi dan Keamanan"
 msgid "Privacy Policy"
 msgstr "Kebijakan Privasi"
 
-#: src/view/com/composer/Composer.tsx:1657
+#: src/view/com/composer/Composer.tsx:1658
 msgid "Processing video..."
 msgstr "Memproses video..."
 
@@ -7656,7 +7656,7 @@ msgstr "Mengunggah gambar..."
 msgid "Uploading link thumbnail..."
 msgstr "Mengunggah keluku tautan..."
 
-#: src/view/com/composer/Composer.tsx:1654
+#: src/view/com/composer/Composer.tsx:1655
 msgid "Uploading video..."
 msgstr "Mengunggah video..."
 
@@ -7850,7 +7850,7 @@ msgstr "Video tidak ditemukan."
 msgid "Video settings"
 msgstr "Pengaturan video"
 
-#: src/view/com/composer/Composer.tsx:1664
+#: src/view/com/composer/Composer.tsx:1665
 msgid "Video uploaded"
 msgstr "Video diunggah"
 
