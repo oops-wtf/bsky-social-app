@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bluesky-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-02-24 04:52\n"
+"PO-Revision-Date: 2025-02-24 14:34\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -284,7 +284,7 @@ msgstr "{handle} tidak dapat dikirimi pesan"
 
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:272
 msgid "{notificationCount} unread items"
-msgstr "{notificationCount} butir belum dibaca"
+msgstr "{notificationCount} item belum dibaca"
 
 #: src/view/shell/Drawer.tsx:453
 msgid "{numUnreadNotifications} unread"
@@ -537,7 +537,7 @@ msgstr "Tambahkan feed ini ke daftar feed Anda"
 
 #: src/view/com/profile/ProfileMenu.tsx:273
 msgid "Add to lists"
-msgstr ""
+msgstr "Tambahkan dalam daftar"
 
 #: src/view/com/profile/ProfileMenu.tsx:270
 msgid "Add to Lists"
@@ -1490,7 +1490,7 @@ msgstr "Tutup dialog"
 
 #: src/view/shell/index.web.tsx:83
 msgid "Close drawer menu"
-msgstr ""
+msgstr "Tutup menu geser"
 
 #: src/view/com/composer/text-input/web/EmojiPicker.web.tsx:137
 #: src/view/com/composer/text-input/web/EmojiPicker.web.tsx:173
@@ -1666,7 +1666,7 @@ msgstr "Penyaring konten"
 
 #: src/screens/Search/components/ExploreRecommendations.tsx:57
 msgid "Content from across the network we think you might like."
-msgstr ""
+msgstr "Konten dari seluruh jaringan yang mungkin Anda sukai."
 
 #: src/screens/Settings/LanguageSettings.tsx:251
 #: src/view/com/modals/lang-settings/ContentLanguagesSettings.tsx:76
@@ -1924,7 +1924,7 @@ msgstr "Sesuaikan siapa yang dapat berinteraksi dengan postingan ini."
 
 #: src/screens/Onboarding/Layout.tsx:56
 msgid "Customizes your Bluesky experience"
-msgstr ""
+msgstr "Menyesuaikan pengalaman Bluesky Anda"
 
 #: src/screens/Settings/AppearanceSettings.tsx:105
 #: src/screens/Settings/AppearanceSettings.tsx:126
@@ -2184,7 +2184,7 @@ msgstr "Tutup panduan memulai"
 
 #: src/components/interstitials/TrendingVideos.tsx:92
 msgid "Dismiss this section"
-msgstr ""
+msgstr "Tutup bagian ini"
 
 #: src/screens/Settings/AccessibilitySettings.tsx:71
 #: src/screens/Settings/AccessibilitySettings.tsx:76
@@ -2619,7 +2619,7 @@ msgstr "Masukkan nama pengguna dan kata sandi Anda"
 
 #: src/view/com/util/post-embeds/VideoEmbedInner/VideoEmbedInnerNative.tsx:135
 msgid "Enters full screen"
-msgstr ""
+msgstr "Masuk ke mode layar penuh"
 
 #: src/view/com/composer/Composer.tsx:1661
 #: src/view/com/util/error/ErrorScreen.tsx:42
@@ -2706,7 +2706,7 @@ msgstr "Bentangkan atau ciutkan postingan lengkap yang Anda balas"
 
 #: src/screens/VideoFeed/index.tsx:941
 msgid "Expands or collapses post text"
-msgstr ""
+msgstr "Bentangkan atau ciutkan postingan"
 
 #: src/view/com/composer/ComposerReplyTo.tsx:73
 msgid "Expands or collapses the full post you are replying to"
@@ -2836,7 +2836,7 @@ msgstr "Gagal menyimpan preferensi notifikasi, silakan coba lagi"
 
 #: src/screens/ModerationInteractionSettings/index.tsx:108
 msgid "Failed to save settings. Please try again."
-msgstr ""
+msgstr "Gagal menyimpan pengaturan. Silakan coba lagi."
 
 #: src/components/dms/MessageItem.tsx:234
 msgid "Failed to send"
@@ -2932,11 +2932,11 @@ msgstr "Saring dari feed"
 
 #: src/view/screens/Search/Search.tsx:398
 msgid "Filter search by language"
-msgstr ""
+msgstr "Saring pencarian berdasarkan bahasa"
 
 #: src/view/screens/Search/Search.tsx:368
 msgid "Filter search by language (currently: {currentLanguageLabel})"
-msgstr ""
+msgstr "Saring pencarian berdasarkan bahasa (saat ini: {currentLanguageLabel})"
 
 #: src/screens/Onboarding/StepFinished.tsx:314
 msgid "Finalizing"
@@ -3010,7 +3010,7 @@ msgstr "Ikuti 7 akun"
 #: src/view/com/profile/ProfileMenu.tsx:249
 #: src/view/com/profile/ProfileMenu.tsx:260
 msgid "Follow account"
-msgstr ""
+msgstr "Ikuti akun"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:434
 #: src/screens/StarterPack/StarterPackScreen.tsx:442
@@ -4174,7 +4174,7 @@ msgstr "Bisukan {tag}"
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:645
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:651
 msgid "Mute account"
-msgstr ""
+msgstr "Bisukan akun"
 
 #: src/view/screens/ProfileList.tsx:627
 msgid "Mute accounts"
@@ -4444,7 +4444,7 @@ msgstr "Tidak lagi mengikuti {0}"
 
 #: src/screens/Signup/StepHandle.tsx:174
 msgid "No longer than {MAX_SERVICE_HANDLE_LENGTH} characters"
-msgstr ""
+msgstr "Tidak lebih dari {MAX_SERVICE_HANDLE_LENGTH} karakter"
 
 #: src/screens/Messages/components/ChatListItem.tsx:124
 msgid "No messages yet"
@@ -4713,7 +4713,7 @@ msgstr "Buka opsi percakapan"
 
 #: src/components/Layout/Header/index.tsx:150
 msgid "Open drawer menu"
-msgstr ""
+msgstr "Buka menu geser"
 
 #: src/screens/Messages/components/MessageInput.web.tsx:181
 #: src/view/com/composer/Composer.tsx:1244
@@ -4856,7 +4856,7 @@ msgstr "Atau, lanjutkan dengan akun lain."
 
 #: src/screens/Deactivated.tsx:186
 msgid "Or, sign in to one of your other accounts."
-msgstr ""
+msgstr "Atau, masuk ke salah satu akun Anda yang lain."
 
 #: src/lib/moderation/useReportOptions.ts:27
 #: src/view/com/composer/labels/LabelsBtn.tsx:186
@@ -5381,11 +5381,11 @@ msgstr "Aktifkan kembali akun Anda"
 
 #: src/screens/VideoFeed/index.tsx:942
 msgid "Read less"
-msgstr ""
+msgstr "Sembunyikan"
 
 #: src/screens/VideoFeed/index.tsx:942
 msgid "Read more"
-msgstr "Baca lebih lanjut"
+msgstr "Lihat selengkapnya"
 
 #: src/view/com/auth/SplashScreen.web.tsx:171
 msgid "Read the Bluesky blog"
@@ -5647,7 +5647,7 @@ msgstr "Laporkan"
 #: src/view/com/profile/ProfileMenu.tsx:326
 #: src/view/com/profile/ProfileMenu.tsx:329
 msgid "Report account"
-msgstr ""
+msgstr "Laporkan akun"
 
 #: src/components/dms/ConvoMenu.tsx:255
 #: src/components/dms/ConvoMenu.tsx:258
@@ -6025,7 +6025,7 @@ msgstr "Cari postingan saya"
 #: src/view/com/profile/ProfileMenu.tsx:228
 #: src/view/com/profile/ProfileMenu.tsx:231
 msgid "Search posts"
-msgstr ""
+msgstr "Cari postingan"
 
 #: src/components/dms/dialogs/SearchablePeopleList.tsx:508
 #: src/components/ProgressGuide/FollowDialog.tsx:764
@@ -6619,7 +6619,7 @@ msgstr "Urutkan balasan ke postingan yang sama berdasarkan:"
 #: src/components/moderation/LabelsOnMeDialog.tsx:178
 #: src/components/moderation/ModerationDetailsDialog.tsx:186
 msgid "Source: <0>{sourceName}</0>"
-msgstr ""
+msgstr "Sumber: <0>{sourceName}</0>"
 
 #: src/lib/moderation/useReportOptions.ts:72
 #: src/lib/moderation/useReportOptions.ts:85
@@ -6897,7 +6897,7 @@ msgstr "Sekian!"
 
 #: src/screens/VideoFeed/index.tsx:1081
 msgid "That's everything!"
-msgstr "Itu semuanya!"
+msgstr "Itu saja!"
 
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:279
 #: src/view/com/profile/ProfileMenu.tsx:381
@@ -6952,7 +6952,7 @@ msgstr "Label berikut telah diterapkan pada konten Anda."
 
 #: src/screens/ModerationInteractionSettings/index.tsx:42
 msgid "The following settings will be used as your defaults when creating new posts. You can edit these for a specific post from the composer."
-msgstr ""
+msgstr "Pengaturan ini akan otomatis diterapkan ke postingan baru. Anda dapat mengubahnya untuk postingan tertentu melalui komposer."
 
 #: src/view/com/post-thread/PostThread.tsx:262
 #: src/view/com/post-thread/PostThread.tsx:274
@@ -7218,7 +7218,7 @@ msgstr "Postingan ini mengklaim dibuat pada <0>{0}</0>, tetapi baru terlihat di 
 
 #: src/components/WhoCanReply.tsx:217
 msgid "This post has an unknown type of threadgate on it. Your app may be out of date."
-msgstr ""
+msgstr "Postingan ini menggunakan pembatasan interaksi yang tidak dikenali. Anda mungkin perlu memperbarui aplikasi."
 
 #: src/view/com/post-thread/PostThreadItem.tsx:153
 msgid "This post has been deleted."
@@ -7227,7 +7227,7 @@ msgstr "Postingan ini telah dihapus."
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:770
 #: src/view/com/util/post-ctrls/PostCtrls.tsx:360
 msgid "This post is only visible to logged-in users. It won't be visible to people who aren't signed in."
-msgstr ""
+msgstr "Postingan ini hanya dapat dilihat oleh pengguna yang masuk. Ini tidak akan terlihat bagi pengguna yang belum masuk."
 
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:751
 msgid "This post will be hidden from feeds and threads. This cannot be undone."
@@ -7239,7 +7239,7 @@ msgstr "Pembuat postingan ini telah menonaktifkan kutipan."
 
 #: src/view/com/profile/ProfileMenu.tsx:402
 msgid "This profile is only visible to logged-in users. It won't be visible to people who aren't signed in."
-msgstr ""
+msgstr "Profil ini hanya dapat dilihat oleh pengguna yang masuk. Ini tidak akan terlihat bagi pengguna yang belum masuk."
 
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:813
 msgid "This reply will be sorted into a hidden section at the bottom of your thread and will mute notifications for subsequent replies - both for yourself and others."
@@ -7359,7 +7359,7 @@ msgstr "Beralih untuk mengaktifkan atau menonaktifkan konten dewasa"
 
 #: src/view/com/util/post-embeds/VideoEmbedInner/VideoEmbedInnerNative.tsx:158
 msgid "Toggles the sound"
-msgstr ""
+msgstr "Mengaktifkan atau menonaktifkan suara"
 
 #: src/screens/Hashtag.tsx:84
 #: src/screens/Topic.tsx:71
@@ -7489,11 +7489,11 @@ msgstr "Berhenti ikuti {0}"
 #: src/view/com/profile/ProfileMenu.tsx:248
 #: src/view/com/profile/ProfileMenu.tsx:258
 msgid "Unfollow account"
-msgstr ""
+msgstr "Berhenti ikuti akun"
 
 #: src/screens/VideoFeed/index.tsx:810
 msgid "Unfollows the user"
-msgstr ""
+msgstr "Berhenti mengikuti pengguna"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:514
 msgid "Unlike"
@@ -7523,7 +7523,7 @@ msgstr "Bunyikan {tag}"
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:644
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:650
 msgid "Unmute account"
-msgstr ""
+msgstr "Bunyikan akun"
 
 #: src/components/dms/ConvoMenu.tsx:236
 msgid "Unmute conversation"
@@ -7746,7 +7746,7 @@ msgstr "pengguna yang diikuti <0>@{0}</0>"
 
 #: src/components/WhoCanReply.tsx:267
 msgid "users following <0>@{0}</0>"
-msgstr ""
+msgstr "pengguna yang mengikuti <0>@{0}</0>"
 
 #: src/screens/Messages/Settings.tsx:92
 #: src/screens/Messages/Settings.tsx:95
@@ -7951,7 +7951,7 @@ msgstr "Lihat daftar akun yang Anda blokir"
 
 #: src/screens/Moderation/index.tsx:204
 msgid "View your default post interaction settings"
-msgstr ""
+msgstr "Lihat standar pengaturan interaksi untuk unggahan Anda"
 
 #: src/view/com/home/HomeHeaderLayout.web.tsx:56
 #: src/view/com/home/HomeHeaderLayoutMobile.tsx:77
@@ -7969,7 +7969,7 @@ msgstr "Lihat daftar akun yang Anda bisukan"
 #: src/view/com/util/images/AutoSizedImage.tsx:199
 #: src/view/com/util/images/AutoSizedImage.tsx:221
 msgid "Views full image"
-msgstr ""
+msgstr "Melihat gambar penuh"
 
 #: src/components/VideoPostCard.tsx:121
 msgid "Views video in immersive mode"
@@ -8264,7 +8264,7 @@ msgstr "Anda dapat mengaktifkan kembali akun Anda untuk melanjutkan masuk. Profi
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:81
 msgid "You can set default interaction settings in <0>Settings → Moderation → Interaction settings</0>."
-msgstr ""
+msgstr "Anda dapat mengatur standar pengaturan interaksi di <0>Pengaturan → Moderasi → Pengaturan interaksi</0>."
 
 #: src/components/interstitials/Trending.tsx:130
 #: src/components/interstitials/TrendingVideos.tsx:139
