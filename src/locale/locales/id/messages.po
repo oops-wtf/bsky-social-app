@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bsky-social-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-03-08 04:55\n"
+"PO-Revision-Date: 2025-03-12 05:36\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -7332,8 +7332,8 @@ msgid "The Privacy Policy has been moved to <0/>"
 msgstr "Kebijakan Privasi telah dipindahkan ke <0/>"
 
 #: src/view/com/composer/state/video.ts:395
-msgid "The selected video is larger than 50MB."
-msgstr "Video yang dipilih lebih besar dari 50MB."
+msgid "The selected video is larger than 100 MB."
+msgstr ""
 
 #: src/lib/strings/errors.ts:18
 msgid "The server appears to be experiencing issues. Please try again in a few moments."
