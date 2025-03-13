@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bsky-social-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-03-12 05:36\n"
+"PO-Revision-Date: 2025-03-13 04:51\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -560,13 +560,10 @@ msgstr "Tambahkan catatan DNS berikut ke domain Anda:"
 msgid "Add this feed to your feeds"
 msgstr "Tambahkan feed ini ke daftar feed Anda"
 
+#: src/view/com/profile/ProfileMenu.tsx:273
 #: src/view/com/profile/ProfileMenu.tsx:276
 msgid "Add to lists"
 msgstr "Tambahkan dalam daftar"
-
-#: src/view/com/profile/ProfileMenu.tsx:273
-msgid "Add to Lists"
-msgstr "Tambahkan ke Daftar"
 
 #: src/view/com/feeds/FeedSourceCard.tsx:269
 msgid "Add to my feeds"
