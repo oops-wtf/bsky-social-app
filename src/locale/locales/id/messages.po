@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bsky-social-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-03-15 04:53\n"
+"PO-Revision-Date: 2025-03-22 05:10\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -894,7 +894,7 @@ msgstr "Arsip postingan"
 msgid "Are you sure you want to delete the app password \"{0}\"?"
 msgstr "Anda yakin ingin menghapus sandi aplikasi \"{0}\"?"
 
-#: src/components/dms/MessageMenu.tsx:152
+#: src/components/dms/MessageContextMenu.tsx:142
 msgid "Are you sure you want to delete this message? The message will be deleted for you, but not for the other participant."
 msgstr "Anda yakin ingin menghapus pesan ini? Pesan akan dihapus untuk Anda, tetapi tidak untuk partisipan lainnya."
 
@@ -1425,7 +1425,6 @@ msgid "Chat requests"
 msgstr "Permintaan obrolan"
 
 #: src/components/dms/ConvoMenu.tsx:75
-#: src/components/dms/MessageMenu.tsx:83
 #: src/Navigation.tsx:413
 #: src/screens/Messages/ChatList.tsx:328
 msgid "Chat settings"
@@ -1531,7 +1530,7 @@ msgstr "Klik untuk mengaktifkan kutipan pada postingan ini."
 msgid "Click to open tag menu for {tag}"
 msgstr "Klik untuk membuka menu tagar {tag}"
 
-#: src/components/dms/MessageItem.tsx:241
+#: src/components/dms/MessageItem.tsx:229
 msgid "Click to retry failed message"
 msgstr "Ketuk untuk mengirim ulang pesan yang gagal"
 
@@ -1596,6 +1595,11 @@ msgstr "Tutup gambar"
 #: src/view/com/lightbox/Lightbox.web.tsx:109
 msgid "Close image viewer"
 msgstr "Tutup penampil gambar"
+
+#: src/components/ContextMenu/Backdrop.ios.tsx:43
+#: src/components/ContextMenu/Backdrop.tsx:39
+msgid "Close menu"
+msgstr ""
 
 #: src/components/Menu/index.tsx:298
 msgid "Close this dialog"
@@ -1827,7 +1831,7 @@ msgstr "Disalin"
 msgid "Copied build version to clipboard"
 msgstr "Versi build disalin ke papan klip"
 
-#: src/components/dms/MessageMenu.tsx:57
+#: src/components/dms/MessageContextMenu.tsx:52
 #: src/lib/sharing.ts:25
 #: src/lib/sharing.ts:41
 #: src/view/com/modals/InviteCodes.tsx:153
@@ -1895,8 +1899,8 @@ msgstr "Salin tautan daftar"
 msgid "Copy link to post"
 msgstr "Salin tautan postingan"
 
-#: src/components/dms/MessageMenu.tsx:112
-#: src/components/dms/MessageMenu.tsx:114
+#: src/components/dms/MessageContextMenu.tsx:103
+#: src/components/dms/MessageContextMenu.tsx:106
 msgid "Copy message text"
 msgstr "Salin teks pesan"
 
@@ -2076,7 +2080,7 @@ msgstr "Standar"
 msgid "Default icons"
 msgstr "Ikon bawaan"
 
-#: src/components/dms/MessageMenu.tsx:154
+#: src/components/dms/MessageContextMenu.tsx:144
 #: src/screens/Messages/components/ChatStatusInfo.tsx:55
 #: src/screens/Settings/AppPasswords.tsx:212
 #: src/screens/StarterPack/StarterPackScreen.tsx:591
@@ -2124,7 +2128,7 @@ msgstr "Hapus percakapan"
 msgid "Delete Conversation"
 msgstr "Hapus Percakapan"
 
-#: src/components/dms/MessageMenu.tsx:126
+#: src/components/dms/MessageContextMenu.tsx:117
 msgid "Delete for me"
 msgstr "Hapus untuk saya"
 
@@ -2132,11 +2136,11 @@ msgstr "Hapus untuk saya"
 msgid "Delete List"
 msgstr "Hapus daftar"
 
-#: src/components/dms/MessageMenu.tsx:150
+#: src/components/dms/MessageContextMenu.tsx:140
 msgid "Delete message"
 msgstr "Hapus pesan"
 
-#: src/components/dms/MessageMenu.tsx:124
+#: src/components/dms/MessageContextMenu.tsx:115
 msgid "Delete message for me"
 msgstr "Hapus pesan untuk saya"
 
@@ -2931,7 +2935,7 @@ msgctxt "toast"
 msgid "Failed to delete chat"
 msgstr "Gagal menghapus obrolan"
 
-#: src/components/dms/MessageMenu.tsx:75
+#: src/components/dms/MessageContextMenu.tsx:70
 msgid "Failed to delete message"
 msgstr "Gagal menghapus pesan"
 
@@ -2991,7 +2995,7 @@ msgstr "Gagal menyimpan preferensi notifikasi, silakan coba lagi"
 msgid "Failed to save settings. Please try again."
 msgstr "Gagal menyimpan pengaturan. Silakan coba lagi."
 
-#: src/components/dms/MessageItem.tsx:234
+#: src/components/dms/MessageItem.tsx:222
 msgid "Failed to send"
 msgstr "Gagal mengirim"
 
@@ -3506,7 +3510,7 @@ msgstr "Daftar yang disembunyikan"
 #: src/components/interstitials/TrendingVideos.tsx:140
 #: src/components/moderation/ContentHider.tsx:200
 #: src/components/moderation/LabelPreference.tsx:135
-#: src/components/moderation/PostHider.tsx:122
+#: src/components/moderation/PostHider.tsx:124
 #: src/lib/moderation/useLabelBehaviorDescription.ts:15
 #: src/lib/moderation/useLabelBehaviorDescription.ts:20
 #: src/lib/moderation/useLabelBehaviorDescription.ts:25
@@ -3626,8 +3630,8 @@ msgstr "Penyedia hosting"
 
 #: src/screens/Settings/ThreadPreferences.tsx:67
 #: src/screens/Settings/ThreadPreferences.tsx:70
-#: src/view/com/post-thread/PostThread.tsx:656
-#: src/view/com/post-thread/PostThread.tsx:661
+#: src/view/com/post-thread/PostThread.tsx:655
+#: src/view/com/post-thread/PostThread.tsx:660
 msgid "Hot replies first"
 msgstr "Balasan hangat lebih dulu"
 
@@ -4050,8 +4054,8 @@ msgstr "Suka"
 msgid "Likes on this post"
 msgstr "Suka pada postingan ini"
 
-#: src/view/com/post-thread/PostThread.tsx:630
-#: src/view/com/post-thread/PostThread.tsx:635
+#: src/view/com/post-thread/PostThread.tsx:629
+#: src/view/com/post-thread/PostThread.tsx:634
 msgid "Linear"
 msgstr "Linier"
 
@@ -4251,7 +4255,7 @@ msgstr "Menu"
 msgid "Message {0}"
 msgstr "Kirim pesan ke {0}"
 
-#: src/components/dms/MessageMenu.tsx:73
+#: src/components/dms/MessageContextMenu.tsx:68
 msgctxt "toast"
 msgid "Message deleted"
 msgstr "Pesan dihapus"
@@ -4259,6 +4263,10 @@ msgstr "Pesan dihapus"
 #: src/screens/Messages/components/ChatListItem.tsx:190
 msgid "Message deleted"
 msgstr "Pesan dihapus"
+
+#: src/components/dms/MessageContextMenu.tsx:83
+msgid "Message from @{0}: {1}"
+msgstr ""
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:201
 msgid "Message from server: {0}"
@@ -4272,6 +4280,10 @@ msgstr "Kotak input pesan"
 #: src/screens/Messages/components/MessageInput.web.tsx:60
 msgid "Message is too long"
 msgstr "Pesan terlalu panjang"
+
+#: src/components/dms/MessageContextMenu.tsx:81
+msgid "Message options"
+msgstr ""
 
 #: src/Navigation.tsx:642
 msgid "Messages"
@@ -4373,8 +4385,8 @@ msgid "Most-liked first"
 msgstr "Yang paling disukai lebih dulu"
 
 #: src/screens/Settings/ThreadPreferences.tsx:91
-#: src/view/com/post-thread/PostThread.tsx:686
-#: src/view/com/post-thread/PostThread.tsx:691
+#: src/view/com/post-thread/PostThread.tsx:685
+#: src/view/com/post-thread/PostThread.tsx:690
 msgid "Most-liked replies first"
 msgstr "Balasan yang paling disukai lebih dulu"
 
@@ -4616,8 +4628,8 @@ msgstr "Daftar Pengguna Baru"
 
 #: src/screens/Settings/ThreadPreferences.tsx:83
 #: src/screens/Settings/ThreadPreferences.tsx:86
-#: src/view/com/post-thread/PostThread.tsx:676
-#: src/view/com/post-thread/PostThread.tsx:681
+#: src/view/com/post-thread/PostThread.tsx:675
+#: src/view/com/post-thread/PostThread.tsx:680
 msgid "Newest replies first"
 msgstr "Balasan terbaru lebih dulu"
 
@@ -4829,7 +4841,7 @@ msgstr "Notifikasi"
 msgid "now"
 msgstr "sekarang"
 
-#: src/components/dms/MessageItem.tsx:198
+#: src/components/dms/MessageItem.tsx:186
 msgid "Now"
 msgstr "Sekarang"
 
@@ -4869,8 +4881,8 @@ msgstr "Oke"
 
 #: src/screens/Settings/ThreadPreferences.tsx:75
 #: src/screens/Settings/ThreadPreferences.tsx:78
-#: src/view/com/post-thread/PostThread.tsx:666
-#: src/view/com/post-thread/PostThread.tsx:671
+#: src/view/com/post-thread/PostThread.tsx:665
+#: src/view/com/post-thread/PostThread.tsx:670
 msgid "Oldest replies first"
 msgstr "Balasan terlama lebih dulu"
 
@@ -4967,7 +4979,7 @@ msgstr "Buka menu opsi feed"
 msgid "Open link to {niceUrl}"
 msgstr "Buka tautan {niceUrl}"
 
-#: src/components/dms/ActionsWrapper.tsx:90
+#: src/components/dms/ActionsWrapper.tsx:57
 msgid "Open message options"
 msgstr "Buka opsi pesan"
 
@@ -5645,8 +5657,8 @@ msgstr "Kutipan postingan ini"
 
 #: src/screens/Settings/ThreadPreferences.tsx:99
 #: src/screens/Settings/ThreadPreferences.tsx:102
-#: src/view/com/post-thread/PostThread.tsx:696
-#: src/view/com/post-thread/PostThread.tsx:701
+#: src/view/com/post-thread/PostThread.tsx:695
+#: src/view/com/post-thread/PostThread.tsx:700
 msgid "Random (aka \"Poster's Roulette\")"
 msgstr "Acak (alias \"Rolet Pemosting\")"
 
@@ -5904,7 +5916,7 @@ msgstr "Pengaturan balasan"
 msgid "Reply settings are chosen by the author of the thread"
 msgstr "Pengaturan balasan dipilih oleh pembuat utas"
 
-#: src/view/com/post-thread/PostThread.tsx:652
+#: src/view/com/post-thread/PostThread.tsx:651
 msgid "Reply sorting"
 msgstr "Urutan balasan"
 
@@ -5939,7 +5951,7 @@ msgstr "Visibilitas balasan diperbarui"
 msgid "Reply was successfully hidden"
 msgstr "Balasan berhasil disembunyikan"
 
-#: src/components/dms/MessageMenu.tsx:134
+#: src/components/dms/MessageContextMenu.tsx:125
 #: src/components/dms/MessagesListBlockedFooter.tsx:85
 #: src/components/dms/MessagesListBlockedFooter.tsx:92
 msgid "Report"
@@ -5973,7 +5985,7 @@ msgstr "Laporkan feed"
 msgid "Report List"
 msgstr "Laporkan Daftar"
 
-#: src/components/dms/MessageMenu.tsx:132
+#: src/components/dms/MessageContextMenu.tsx:123
 msgid "Report message"
 msgstr "Laporkan pesan"
 
@@ -6138,7 +6150,7 @@ msgstr "Mencoba masuk kembali"
 msgid "Retries the last action, which errored out"
 msgstr "Mencoba kembali tindakan terakhir yang gagal"
 
-#: src/components/dms/MessageItem.tsx:245
+#: src/components/dms/MessageItem.tsx:233
 #: src/components/Error.tsx:65
 #: src/components/Lists.tsx:110
 #: src/components/moderation/ReportDialog/index.tsx:221
@@ -6682,7 +6694,7 @@ msgstr "Membagikan situs web tertaut"
 
 #: src/components/moderation/ContentHider.tsx:200
 #: src/components/moderation/LabelPreference.tsx:137
-#: src/components/moderation/PostHider.tsx:122
+#: src/components/moderation/PostHider.tsx:124
 msgid "Show"
 msgstr "Tampilkan"
 
@@ -6749,7 +6761,7 @@ msgstr "Tampilkan kutipan postingan"
 msgid "Show replies"
 msgstr "Tampilkan balasan"
 
-#: src/view/com/post-thread/PostThread.tsx:626
+#: src/view/com/post-thread/PostThread.tsx:625
 msgid "Show replies as"
 msgstr "Tampilkan balasan"
 
@@ -6939,8 +6951,8 @@ msgstr "Ada yang tidak beres. Silakan coba lagi."
 msgid "Something wrong? Let us know."
 msgstr "Ada masalah? Beri tahu kami."
 
-#: src/App.native.tsx:122
-#: src/App.web.tsx:98
+#: src/App.native.tsx:123
+#: src/App.web.tsx:99
 msgid "Sorry! Your session expired. Please sign in again."
 msgstr "Maaf! Sesi Anda telah berakhir. Silakan masuk lagi."
 
@@ -7156,6 +7168,11 @@ msgstr "Log sistem"
 msgid "Tags only"
 msgstr "Hanya tagar"
 
+#: src/components/ContextMenu/Backdrop.ios.tsx:44
+#: src/components/ContextMenu/Backdrop.tsx:40
+msgid "Tap to close context menu"
+msgstr ""
+
 #: src/components/ProgressGuide/Toast.tsx:156
 msgid "Tap to dismiss"
 msgstr "Ketuk untuk menutup"
@@ -7340,6 +7357,10 @@ msgstr "Server tampaknya mengalami masalah. Silahkan coba lagi dalam beberapa sa
 msgid "The starter pack that you are trying to view is invalid. You may delete this starter pack instead."
 msgstr "Paket pemula yang ingin Anda lihat tidak valid. Anda dapat menghapus paket pemula ini."
 
+#: src/components/ContextMenu/index.tsx:305
+msgid "The subject of the context menu"
+msgstr ""
+
 #: src/view/screens/Support.tsx:37
 msgid "The support form has been moved. If you need help, please <0/> or visit {HELP_DESK_URL} to get in touch with us."
 msgstr "Formulir dukungan telah dipindahkan. Jika Anda memerlukan bantuan, silakan <0/> atau kunjungi {HELP_DESK_URL} untuk menghubungi kami."
@@ -7385,7 +7406,7 @@ msgstr "Ada masalah saat menghubungi server Anda"
 msgid "There was an issue fetching notifications. Tap here to try again."
 msgstr "Ada masalah saat mengambil notifikasi. Ketuk di sini untuk mencoba lagi."
 
-#: src/view/com/posts/PostFeed.tsx:592
+#: src/view/com/posts/PostFeed.tsx:607
 msgid "There was an issue fetching posts. Tap here to try again."
 msgstr "Ada masalah saat mengambil postingan. Ketuk di sini untuk mencoba lagi."
 
@@ -7667,8 +7688,8 @@ msgstr "Ini akan menghapus @{0} dari daftar akses cepat."
 msgid "This will remove your post from this quote post for all users, and replace it with a placeholder."
 msgstr "Ini akan menghapus postingan Anda dari kutipan ini untuk semua pengguna, dan menempatkan teks pengganti."
 
-#: src/view/com/post-thread/PostThread.tsx:610
-#: src/view/com/post-thread/PostThread.tsx:613
+#: src/view/com/post-thread/PostThread.tsx:609
+#: src/view/com/post-thread/PostThread.tsx:612
 msgid "Thread options"
 msgstr "Opsi utas"
 
@@ -7681,8 +7702,8 @@ msgstr "Preferensi utas"
 msgid "Thread Preferences"
 msgstr "Preferensi Utas"
 
-#: src/view/com/post-thread/PostThread.tsx:640
-#: src/view/com/post-thread/PostThread.tsx:645
+#: src/view/com/post-thread/PostThread.tsx:639
+#: src/view/com/post-thread/PostThread.tsx:644
 msgid "Threaded"
 msgstr "Bersusun"
 
@@ -7740,8 +7761,8 @@ msgstr "Teratas"
 msgid "Topic"
 msgstr "Topik"
 
-#: src/components/dms/MessageMenu.tsx:105
-#: src/components/dms/MessageMenu.tsx:107
+#: src/components/dms/MessageContextMenu.tsx:96
+#: src/components/dms/MessageContextMenu.tsx:98
 #: src/view/com/post-thread/PostThreadItem.tsx:778
 #: src/view/com/post-thread/PostThreadItem.tsx:781
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:451
