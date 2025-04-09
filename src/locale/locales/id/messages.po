@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bsky-social-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-04-08 05:09\n"
+"PO-Revision-Date: 2025-04-09 05:25\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -18,8 +18,8 @@ msgstr ""
 "X-Crowdin-File: /main/src/locale/locales/en/messages.po\n"
 "X-Crowdin-File-ID: 58\n"
 
-#: src/components/ProgressGuide/FollowDialog.tsx:515
-#: src/screens/Search/modules/ExploreSuggestedAccounts.tsx:119
+#: src/components/ProgressGuide/FollowDialog.tsx:516
+#: src/screens/Search/modules/ExploreSuggestedAccounts.tsx:127
 msgid "(active)"
 msgstr "(aktif)"
 
@@ -119,12 +119,12 @@ msgstr "{0, plural, other {posting ulang}}"
 
 #: src/screens/Search/modules/ExploreTrendingTopics.tsx:78
 msgid "{0, plural, other {{1} posts}}"
-msgstr ""
+msgstr "{0, plural, other {{1} postingan}}"
 
 #. Number of users (always at least 25) who have joined Bluesky using a specific starter pack
 #: src/screens/StarterPack/StarterPackScreen.tsx:485
 msgid "{0, plural, other {# people have}} used this starter pack!"
-msgstr ""
+msgstr "{0, plural, other {# orang}} telah menggunakan paket pemula ini!"
 
 #. Pattern: {wordValue} in tags
 #: src/components/dialogs/MutedWords.tsx:475
@@ -151,11 +151,11 @@ msgstr "{0} dari 50"
 
 #: src/components/dms/MessageItem.tsx:143
 msgid "{0} reacted {1}"
-msgstr ""
+msgstr "{0} bereaksi {1}"
 
 #: src/screens/Messages/components/ChatListItem.tsx:226
 msgid "{0} reacted {1} to {2}"
-msgstr ""
+msgstr "{0} bereaksi {1} pada {2}"
 
 #: src/view/com/util/UserAvatar.tsx:464
 msgid "{0}'s avatar"
@@ -306,7 +306,7 @@ msgstr "{handle} tidak dapat dikirimi pesan"
 #. Number of users (always at least 50) who have joined Bluesky using a specific starter pack
 #: src/components/StarterPack/StarterPackCard.tsx:101
 msgid "{joinedAllTimeCount, plural, other {# users have}} joined!"
-msgstr ""
+msgstr "{joinedAllTimeCount, plural, other {# pengguna telah}} bergabung!"
 
 #: src/view/shell/bottom-bar/BottomBarWeb.tsx:270
 msgid "{notificationCount, plural, one {# unread item} other {# unread items}}"
@@ -400,7 +400,7 @@ msgstr "7 hari"
 #. If last message does not contain text, fall back to "{user} reacted to {a message}"
 #: src/screens/Messages/components/ChatListItem.tsx:205
 msgid "a message"
-msgstr ""
+msgstr "sebuah pesan"
 
 #: src/Navigation.tsx:391
 #: src/screens/Settings/AboutSettings.tsx:34
@@ -559,7 +559,7 @@ msgstr "Tambahkan Sandi Aplikasi"
 
 #: src/components/dms/EmojiReactionPicker.web.tsx:35
 msgid "Add emoji reaction"
-msgstr ""
+msgstr "Tambahkan emoji reaksi"
 
 #: src/components/moderation/ReportDialog/index.tsx:392
 #: src/components/moderation/ReportDialog/index.tsx:396
@@ -585,7 +585,7 @@ msgstr "Tambahkan orang"
 
 #: src/components/dms/EmojiPopup.android.tsx:55
 msgid "Add Reaction"
-msgstr ""
+msgstr "Tambahkan Reaksi"
 
 #: src/screens/Home/NoFeedsPinned.tsx:99
 msgid "Add recommended feeds"
@@ -760,9 +760,9 @@ msgstr "Terjadi kesalahan"
 msgid "An error occurred while compressing the video."
 msgstr "Terjadi kesalahan saat mengompresi video."
 
-#: src/state/queries/explore-feed-previews.tsx:183
+#: src/state/queries/explore-feed-previews.tsx:184
 msgid "An error occurred while fetching the feed."
-msgstr ""
+msgstr "Terjadi kesalahan saat mengambil feed."
 
 #: src/components/StarterPack/ProfileStarterPacks.tsx:336
 msgid "An error occurred while generating your starter pack. Want to try again?"
@@ -1259,7 +1259,7 @@ msgstr "Telusuri paket pemula {displayName}"
 
 #: src/screens/Search/modules/ExploreTrendingTopics.tsx:89
 msgid "Browse topic {0}"
-msgstr ""
+msgstr "Jelajahi topik {0}"
 
 #: src/components/TrendingTopics.tsx:232
 msgid "Browse topic {displayName}"
@@ -1272,7 +1272,7 @@ msgstr "Bisnis"
 #: src/components/LabelingServiceCard/index.tsx:62
 #: src/components/moderation/ReportDialog/index.tsx:672
 #: src/screens/Search/components/StarterPackCard.tsx:106
-#: src/screens/Search/Explore.tsx:810
+#: src/screens/Search/Explore.tsx:853
 msgid "By {0}"
 msgstr "Oleh {0}"
 
@@ -1294,7 +1294,7 @@ msgstr "Dengan membuat akun, Anda menyatakan setuju dengan <0>Ketentuan Layanan<
 
 #: src/screens/Search/components/StarterPackCard.tsx:105
 msgid "By you"
-msgstr ""
+msgstr "Oleh anda"
 
 #: src/view/com/composer/photos/OpenCameraBtn.tsx:72
 msgid "Camera"
@@ -1449,7 +1449,7 @@ msgid "Changes app icon"
 msgstr "Mengganti ikon aplikasi"
 
 #: src/components/forms/HostingProvider.tsx:50
-#: src/components/forms/HostingProvider.tsx:68
+#: src/components/forms/HostingProvider.tsx:70
 msgid "Changes hosting provider"
 msgstr "Mengganti penyedia hosting"
 
@@ -1602,7 +1602,7 @@ msgstr "Keletak 🐴 keletuk 🐴"
 #: src/components/dms/ReportDialog.tsx:390
 #: src/components/NewskieDialog.tsx:146
 #: src/components/NewskieDialog.tsx:153
-#: src/components/ProgressGuide/FollowDialog.tsx:385
+#: src/components/ProgressGuide/FollowDialog.tsx:386
 #: src/components/StarterPack/Wizard/WizardEditListDialog.tsx:117
 #: src/components/StarterPack/Wizard/WizardEditListDialog.tsx:123
 #: src/view/com/modals/ChangePassword.tsx:279
@@ -1653,7 +1653,7 @@ msgstr "Tutup penampil gambar"
 #: src/components/ContextMenu/Backdrop.ios.tsx:79
 #: src/components/ContextMenu/Backdrop.tsx:45
 msgid "Close menu"
-msgstr ""
+msgstr "Tutup menu"
 
 #: src/components/Menu/index.tsx:300
 msgid "Close this dialog"
@@ -1665,7 +1665,7 @@ msgstr "Menutup peringatan pembaruan kata sandi"
 
 #: src/view/com/composer/Composer.tsx:945
 msgid "Closes post composer and discards post draft"
-msgstr ""
+msgstr "Menutup komposer pos dan menghapus draf postingan"
 
 #: src/view/com/composer/text-input/web/EmojiPicker.web.tsx:138
 #: src/view/com/composer/text-input/web/EmojiPicker.web.tsx:174
@@ -2047,7 +2047,7 @@ msgstr "Buat akun"
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:303
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:310
 msgid "Create an account without using this starter pack"
-msgstr ""
+msgstr "Buat akun tanpa menggunakan paket pemula ini"
 
 #: src/screens/Onboarding/StepProfile/index.tsx:292
 msgid "Create an avatar instead"
@@ -2197,7 +2197,7 @@ msgstr "Hapus untuk saya"
 
 #: src/view/screens/ProfileList.tsx:548
 msgid "Delete list"
-msgstr ""
+msgstr "Hapus daftar"
 
 #: src/components/dms/MessageContextMenu.tsx:176
 msgid "Delete message"
@@ -2345,9 +2345,9 @@ msgstr "Buang postingan?"
 msgid "Discourage apps from showing my account to logged-out users"
 msgstr "Cegah aplikasi menampilkan akun saya ke pengguna yang tidak masuk"
 
-#: src/screens/Search/Explore.tsx:406
+#: src/screens/Search/Explore.tsx:436
 msgid "Discover Feeds"
-msgstr ""
+msgstr "Jelajahi Feed"
 
 #: src/view/com/posts/FollowingEmptyState.tsx:70
 #: src/view/com/posts/FollowingEndOfFeed.tsx:71
@@ -2400,7 +2400,7 @@ msgstr "Nama tampilan terlalu panjang"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:334
 msgid "Display name is too long. {DISPLAY_NAME_MAX_GRAPHEMES, plural, other {The maximum number of characters is #.}}"
-msgstr ""
+msgstr "Nama tampilan terlalu panjang. {DISPLAY_NAME_MAX_GRAPHEMES, plural, other {Maksimum jumlah karakter adalah #.}}"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:373
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:375
@@ -2458,7 +2458,7 @@ msgstr "Selesai{extraText}"
 
 #: src/components/dms/MessageItem.tsx:161
 msgid "Double tap or long press the message to add a reaction"
-msgstr ""
+msgstr "Ketuk dua kali atau tekan lama pada pesan untuk menambahkan reaksi"
 
 #: src/components/Dialog/index.tsx:324
 msgid "Double tap to close the dialog"
@@ -2799,7 +2799,7 @@ msgstr "Masukkan email yang Anda gunakan untuk membuat akun. Kami akan mengirimk
 
 #: src/screens/Login/LoginForm.tsx:218
 msgid "Enter the username or email address you used when you created your account"
-msgstr ""
+msgstr "Masukkan nama pengguna atau alamat email yang Anda gunakan saat membuat akun Anda"
 
 #: src/components/dialogs/BirthDateSettings.tsx:104
 msgid "Enter your birth date"
@@ -2832,7 +2832,7 @@ msgstr "Masuk ke mode layar penuh"
 
 #: src/screens/Search/modules/ExploreTrendingTopics.tsx:235
 msgid "Entertainment"
-msgstr ""
+msgstr "Hiburan"
 
 #: src/view/com/composer/Composer.tsx:1698
 #: src/view/com/util/error/ErrorScreen.tsx:42
@@ -3005,7 +3005,7 @@ msgstr "Gagal menerima obrolan"
 #: src/components/dms/ActionsWrapper.web.tsx:67
 #: src/components/dms/MessageContextMenu.tsx:93
 msgid "Failed to add emoji reaction"
-msgstr ""
+msgstr "Gagal menambahkan emoji reaksi"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:568
 msgid "Failed to change handle. Please try again."
@@ -3051,8 +3051,8 @@ msgstr "Gagal menghapus paket pemula"
 msgid "Failed to load conversations"
 msgstr "Gagal memuat percakapan"
 
-#: src/screens/Search/Explore.tsx:445
-#: src/screens/Search/Explore.tsx:484
+#: src/screens/Search/Explore.tsx:475
+#: src/screens/Search/Explore.tsx:514
 msgid "Failed to load feeds preferences"
 msgstr "Gagal memuat preferensi feed"
 
@@ -3064,12 +3064,12 @@ msgstr "Gagal memuat GIF"
 msgid "Failed to load past messages"
 msgstr "Gagal memuat pesan terdahulu"
 
-#: src/screens/Search/Explore.tsx:438
-#: src/screens/Search/Explore.tsx:477
+#: src/screens/Search/Explore.tsx:468
+#: src/screens/Search/Explore.tsx:507
 msgid "Failed to load suggested feeds"
 msgstr "Gagal memuat daftar feed yang disarankan"
 
-#: src/screens/Search/Explore.tsx:347
+#: src/screens/Search/Explore.tsx:375
 msgid "Failed to load suggested follows"
 msgstr "Gagal memuat saran akun untuk diikuti"
 
@@ -3085,7 +3085,7 @@ msgstr "Gagal menyematkan postingan"
 #: src/components/dms/ActionsWrapper.web.tsx:61
 #: src/components/dms/MessageContextMenu.tsx:87
 msgid "Failed to remove emoji reaction"
-msgstr ""
+msgstr "Gagal menghapus emoji reaksi"
 
 #: src/view/com/lightbox/Lightbox.tsx:46
 msgid "Failed to save image: {0}"
@@ -3222,7 +3222,7 @@ msgstr "Temukan akun untuk diikuti"
 
 #: src/components/ProgressGuide/FollowDialog.tsx:77
 #: src/components/ProgressGuide/FollowDialog.tsx:87
-#: src/components/ProgressGuide/FollowDialog.tsx:373
+#: src/components/ProgressGuide/FollowDialog.tsx:374
 msgid "Find people to follow"
 msgstr "Cari orang untuk diikuti"
 
@@ -3407,7 +3407,7 @@ msgstr "Untuk alasan keamanan, Anda tidak akan dapat melihat ini lagi. Jika Anda
 msgid "For the best experience, we recommend using the theme font."
 msgstr "Untuk pengalaman terbaik, kami sarankan menggunakan font tema."
 
-#: src/screens/Search/modules/ExploreSuggestedAccounts.tsx:87
+#: src/screens/Search/modules/ExploreSuggestedAccounts.tsx:94
 msgid "For You"
 msgstr ""
 
@@ -4240,11 +4240,11 @@ msgstr "Daftar"
 msgid "Lists blocking this user:"
 msgstr "Daftar yang memblokir pengguna ini:"
 
-#: src/screens/Search/Explore.tsx:82
+#: src/screens/Search/Explore.tsx:87
 msgid "Load more"
 msgstr "Muat lebih banyak"
 
-#: src/screens/Search/Explore.tsx:466
+#: src/screens/Search/Explore.tsx:496
 msgid "Load more suggested feeds"
 msgstr "Muat lebih banyak feed yang disarankan"
 
@@ -4389,7 +4389,7 @@ msgstr "Pesan terlalu panjang"
 
 #: src/components/dms/MessageContextMenu.tsx:117
 msgid "Message options"
-msgstr ""
+msgstr "Opsi pesan"
 
 #: src/Navigation.tsx:650
 msgid "Messages"
@@ -4642,7 +4642,7 @@ msgstr "Menuju ke {0}"
 
 #: src/components/StarterPack/StarterPackCard.tsx:131
 msgid "Navigate to starter pack"
-msgstr ""
+msgstr "Menuju ke paket pemula"
 
 #: src/screens/Login/ForgotPasswordForm.tsx:166
 #: src/screens/Login/LoginForm.tsx:344
@@ -4673,7 +4673,7 @@ msgstr "Tidak usah, buatkan panggilan untuk saya"
 
 #: src/screens/Search/modules/ExploreTrendingTopics.tsx:195
 msgid "New"
-msgstr ""
+msgstr "Baru"
 
 #: src/view/screens/Lists.tsx:74
 #: src/view/screens/ModerationModlists.tsx:74
@@ -4842,12 +4842,12 @@ msgid "No result"
 msgstr "Tidak ada hasil"
 
 #: src/components/dms/dialogs/SearchablePeopleList.tsx:204
-#: src/components/ProgressGuide/FollowDialog.tsx:211
+#: src/components/ProgressGuide/FollowDialog.tsx:212
 msgid "No results"
 msgstr "Tidak ada hasil"
 
-#: src/screens/Search/Explore.tsx:677
-msgid "No results for \"{selectedInterest}\"."
+#: src/screens/Search/Explore.tsx:715
+msgid "No results for \"{0}\"."
 msgstr ""
 
 #: src/components/Lists.tsx:189
@@ -4864,6 +4864,10 @@ msgstr "Tidak ditemukan hasil untuk \"{query}\""
 #: src/view/com/modals/ListAddRemoveUsers.tsx:128
 msgid "No results found for {query}"
 msgstr "Tidak ditemukan hasil untuk {query}"
+
+#: src/screens/Search/Explore.tsx:719
+msgid "No results."
+msgstr ""
 
 #: src/components/dialogs/GifSelect.tsx:229
 msgid "No search results found for \"{search}\"."
@@ -5119,7 +5123,7 @@ msgstr "Buka pengaturan kata dan tagar yang dibisukan"
 
 #: src/screens/Search/components/StarterPackCard.tsx:119
 msgid "Open pack"
-msgstr ""
+msgstr "Buka paket"
 
 #: src/view/com/util/forms/PostDropdownBtn.tsx:70
 msgid "Open post options menu"
@@ -5370,7 +5374,7 @@ msgstr "Sematkan feed"
 
 #: src/components/FeedCard.tsx:329
 msgid "Pin Feed"
-msgstr ""
+msgstr "Sematkan Feed"
 
 #: src/view/screens/ProfileList.tsx:706
 msgid "Pin to home"
@@ -5740,22 +5744,22 @@ msgstr "Daftar terbuka yang dapat dibagikan dan digunakan sebagai feed."
 #. Accessibility label for button to publish a single post
 #: src/view/com/composer/Composer.tsx:988
 msgid "Publish post"
-msgstr ""
+msgstr "Kirim postingan"
 
 #. Accessibility label for button to publish multiple posts in a thread
 #: src/view/com/composer/Composer.tsx:981
 msgid "Publish posts"
-msgstr ""
+msgstr "Kirim postingan"
 
 #. Accessibility label for button to publish multiple replies in a thread
 #: src/view/com/composer/Composer.tsx:966
 msgid "Publish replies"
-msgstr ""
+msgstr "Kirim balasan"
 
 #. Accessibility label for button to publish a single reply
 #: src/view/com/composer/Composer.tsx:973
 msgid "Publish reply"
-msgstr ""
+msgstr "Kirim balasan"
 
 #: src/components/StarterPack/QrCodeDialog.tsx:134
 msgid "QR code copied to your clipboard!"
@@ -5821,7 +5825,7 @@ msgstr "Kembalikan kutipan"
 
 #: src/components/dms/EmojiReactionPicker.tsx:85
 msgid "React with {emoji}"
-msgstr ""
+msgstr "Reaksi dengan {emoji}"
 
 #: src/screens/Deactivated.tsx:141
 msgid "Reactivate your account"
@@ -6135,7 +6139,7 @@ msgstr "Laporkan feed"
 
 #: src/view/screens/ProfileList.tsx:562
 msgid "Report list"
-msgstr ""
+msgstr "Laporkan daftar"
 
 #: src/components/dms/MessageContextMenu.tsx:159
 msgid "Report message"
@@ -6460,7 +6464,7 @@ msgstr "Cari"
 msgid "Search @{0}'s posts"
 msgstr "Cari postingan @{0}"
 
-#: src/components/ProgressGuide/FollowDialog.tsx:682
+#: src/components/ProgressGuide/FollowDialog.tsx:683
 msgid "Search by name or interest"
 msgstr "Cari berdasarkan nama atau minat"
 
@@ -6468,8 +6472,8 @@ msgstr "Cari berdasarkan nama atau minat"
 msgid "Search feeds"
 msgstr "Cari feed"
 
-#: src/components/ProgressGuide/FollowDialog.tsx:523
-#: src/screens/Search/modules/ExploreSuggestedAccounts.tsx:127
+#: src/components/ProgressGuide/FollowDialog.tsx:524
+#: src/screens/Search/modules/ExploreSuggestedAccounts.tsx:135
 msgid "Search for \"{interestsDisplayName}\"{activeText}"
 msgstr "Cari \"{interestsDisplayName}\"{activeText}"
 
@@ -6485,11 +6489,11 @@ msgstr "Cari \"{searchText}\""
 msgid "Search for feeds that you want to suggest to others."
 msgstr "Cari feed yang ingin Anda sarankan kepada orang lain."
 
-#: src/screens/Search/Explore.tsx:335
+#: src/screens/Search/Explore.tsx:362
 msgid "Search for more accounts"
 msgstr ""
 
-#: src/screens/Search/Explore.tsx:409
+#: src/screens/Search/Explore.tsx:439
 msgid "Search for more feeds"
 msgstr ""
 
@@ -6515,7 +6519,7 @@ msgid "Search posts"
 msgstr "Cari postingan"
 
 #: src/components/dms/dialogs/SearchablePeopleList.tsx:511
-#: src/components/ProgressGuide/FollowDialog.tsx:701
+#: src/components/ProgressGuide/FollowDialog.tsx:702
 msgid "Search profiles"
 msgstr "Cari profil"
 
@@ -6528,7 +6532,7 @@ msgid "Search..."
 msgstr "Cari..."
 
 #: src/components/dms/dialogs/SearchablePeopleList.tsx:512
-#: src/components/ProgressGuide/FollowDialog.tsx:702
+#: src/components/ProgressGuide/FollowDialog.tsx:703
 msgid "Searches for profiles"
 msgstr "Mencari profil"
 
@@ -7194,7 +7198,7 @@ msgstr "Paket pemula dari Anda"
 msgid "Starter pack is invalid"
 msgstr "Paket pemula tidak valid"
 
-#: src/screens/Search/Explore.tsx:508
+#: src/screens/Search/Explore.tsx:538
 #: src/view/screens/Profile.tsx:228
 msgid "Starter Packs"
 msgstr "Paket Pemula"
@@ -7266,7 +7270,7 @@ msgstr "Berlangganan ke daftar ini"
 msgid "Success!"
 msgstr "Sukses!"
 
-#: src/screens/Search/Explore.tsx:332
+#: src/screens/Search/Explore.tsx:359
 msgid "Suggested Accounts"
 msgstr ""
 
@@ -7571,7 +7575,7 @@ msgstr "Ada masalah saat menghubungi server Anda"
 msgid "There was an issue fetching notifications. Tap here to try again."
 msgstr "Ada masalah saat mengambil notifikasi. Ketuk di sini untuk mencoba lagi."
 
-#: src/screens/Search/Explore.tsx:865
+#: src/screens/Search/Explore.tsx:908
 #: src/view/com/posts/PostFeed.tsx:607
 msgid "There was an issue fetching posts. Tap here to try again."
 msgstr "Ada masalah saat mengambil postingan. Ketuk di sini untuk mencoba lagi."
@@ -7940,7 +7944,7 @@ msgstr "Terjemahkan"
 msgid "Trending"
 msgstr "Trending"
 
-#: src/screens/Search/Explore.tsx:576
+#: src/screens/Search/Explore.tsx:608
 msgid "Trending topics"
 msgstr ""
 
@@ -8640,7 +8644,7 @@ msgid "We'll use this to help customize your experience."
 msgstr "Kami akan menggunakan ini untuk menyesuaikan pengalaman Anda."
 
 #: src/components/dms/dialogs/SearchablePeopleList.tsx:92
-#: src/components/ProgressGuide/FollowDialog.tsx:171
+#: src/components/ProgressGuide/FollowDialog.tsx:172
 msgid "We're having network issues, try again"
 msgstr "Kami mengalami masalah jaringan, coba lagi"
 
@@ -8817,7 +8821,7 @@ msgid "You"
 msgstr "Anda"
 
 #: src/components/forms/HostingProvider.tsx:46
-msgid "You are creating an account on <0><1>{0}</1><2/></0>"
+msgid "You are creating an account on"
 msgstr ""
 
 #: src/screens/SignupQueued.tsx:157
@@ -8982,7 +8986,7 @@ msgstr "Anda dapat mengajukan banding atas label berikut jika Anda merasa label 
 
 #: src/screens/StarterPack/Wizard/State.tsx:76
 msgid "You may only add up to {STARTER_PACK_MAX_SIZE, plural, other {{STARTER_PACK_MAX_SIZE} profiles}}"
-msgstr ""
+msgstr "Anda hanya dapat menambahkan hingga {STARTER_PACK_MAX_SIZE, plural, other {{STARTER_PACK_MAX_SIZE} profil}}"
 
 #: src/screens/StarterPack/Wizard/State.tsx:95
 msgid "You may only add up to 3 feeds"
@@ -8994,7 +8998,7 @@ msgstr "Anda hanya boleh memilih maksimal 4 gambar"
 
 #: src/screens/Signup/StepInfo/Policies.tsx:106
 msgid "You must be 13 years of age or older to create an account."
-msgstr ""
+msgstr "Anda harus berusia 13 tahun atau lebih untuk membuat akun."
 
 #: src/components/StarterPack/ProfileStarterPacks.tsx:327
 msgid "You must be following at least seven other people to generate a starter pack."
@@ -9018,11 +9022,11 @@ msgstr "Anda telah menonaktifkan @{0} sebelumnya."
 
 #: src/components/dms/MessageItem.tsx:135
 msgid "You reacted {0}"
-msgstr ""
+msgstr "Anda bereaksi {0}"
 
 #: src/screens/Messages/components/ChatListItem.tsx:213
 msgid "You reacted {0} to {1}"
-msgstr ""
+msgstr "Anda bereaksi {0} pada {1}"
 
 #: src/screens/Settings/Settings.tsx:257
 #: src/view/shell/desktop/LeftNav.tsx:206
