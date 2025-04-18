@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bsky-social-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-04-17 05:11\n"
+"PO-Revision-Date: 2025-04-18 05:12\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -299,7 +299,7 @@ msgstr "{firstAuthorName} mendaftar dengan paket pemula Anda"
 msgid "{following} following"
 msgstr "{following} mengikuti"
 
-#: src/components/dms/dialogs/SearchablePeopleList.tsx:392
+#: src/components/dialogs/SearchablePeopleList.tsx:412
 msgid "{handle} can't be messaged"
 msgstr "{handle} tidak dapat dikirimi pesan"
 
@@ -403,7 +403,7 @@ msgid "a message"
 msgstr "sebuah pesan"
 
 #: src/Navigation.tsx:391
-#: src/screens/Settings/AboutSettings.tsx:34
+#: src/screens/Settings/AboutSettings.tsx:72
 #: src/screens/Settings/Settings.tsx:218
 #: src/screens/Settings/Settings.tsx:221
 msgid "About"
@@ -493,8 +493,8 @@ msgctxt "toast"
 msgid "Account unmuted"
 msgstr "Akun tidak dibisukan"
 
+#: src/components/dialogs/lists/ListAddRemoveUsersDialog.tsx:169
 #: src/components/dialogs/MutedWords.tsx:328
-#: src/view/com/modals/ListAddRemoveUsers.tsx:269
 #: src/view/com/modals/UserAddRemoveLists.tsx:235
 msgid "Add"
 msgstr "Tambah"
@@ -512,8 +512,8 @@ msgstr "Tambahkan {displayName} dalam paket pemula"
 msgid "Add a content warning"
 msgstr "Tambahkan peringatan konten"
 
-#: src/view/screens/ProfileList.tsx:916
-#: src/view/screens/ProfileList.tsx:934
+#: src/view/screens/ProfileList.tsx:924
+#: src/view/screens/ProfileList.tsx:942
 msgid "Add a user to this list"
 msgstr "Tambahkan pengguna ke daftar ini"
 
@@ -578,10 +578,14 @@ msgstr "Tambah kata dan tagar untuk dibisukan"
 msgid "Add new post"
 msgstr "Tambahkan postingan baru"
 
-#: src/view/screens/ProfileList.tsx:924
-#: src/view/screens/ProfileList.tsx:942
+#: src/view/screens/ProfileList.tsx:932
+#: src/view/screens/ProfileList.tsx:950
 msgid "Add people"
 msgstr "Tambahkan orang"
+
+#: src/components/dialogs/lists/ListAddRemoveUsersDialog.tsx:79
+msgid "Add people to list"
+msgstr ""
 
 #: src/components/dms/EmojiPopup.android.tsx:55
 msgid "Add Reaction"
@@ -616,7 +620,11 @@ msgstr "Tambahkan dalam daftar"
 msgid "Add to my feeds"
 msgstr "Tambahkan ke daftar feed saya"
 
-#: src/view/com/modals/ListAddRemoveUsers.tsx:192
+#: src/components/dialogs/lists/ListAddRemoveUsersDialog.tsx:156
+msgid "Add user to list"
+msgstr ""
+
+#: src/components/dialogs/lists/ListAddRemoveUsersDialog.tsx:109
 #: src/view/com/modals/UserAddRemoveLists.tsx:162
 msgid "Added to list"
 msgstr "Ditambahkan ke daftar"
@@ -809,8 +817,8 @@ msgstr "Terjadi masalah saat mencoba membuka obrolan"
 
 #: src/components/hooks/useFollowMethods.ts:35
 #: src/components/hooks/useFollowMethods.ts:50
-#: src/components/ProfileCard.tsx:336
-#: src/components/ProfileCard.tsx:357
+#: src/components/ProfileCard.tsx:354
+#: src/components/ProfileCard.tsx:375
 #: src/view/com/profile/FollowButton.tsx:38
 #: src/view/com/profile/FollowButton.tsx:48
 msgid "An issue occurred, please try again."
@@ -1052,7 +1060,7 @@ msgstr "Untuk membuat postingan, harap verifikasi email Anda terlebih dahulu."
 msgid "Before creating a starter pack, you must first verify your email."
 msgstr "Untuk membuat paket pemula, harap verifikasi email Anda terlebih dahulu."
 
-#: src/components/dms/dialogs/NewChatDialog.tsx:79
+#: src/components/dms/dialogs/NewChatDialog.tsx:80
 #: src/components/dms/MessageProfileButton.tsx:110
 #: src/screens/Messages/Conversation.tsx:221
 msgid "Before you may message another user, you must first verify your email."
@@ -1085,7 +1093,7 @@ msgstr "Blokir akun"
 msgid "Block Account?"
 msgstr "Blokir Akun?"
 
-#: src/view/screens/ProfileList.tsx:661
+#: src/view/screens/ProfileList.tsx:669
 msgid "Block accounts"
 msgstr "Blokir akun"
 
@@ -1097,7 +1105,7 @@ msgstr "Blokir dan Hapus"
 msgid "Block and/or delete this conversation"
 msgstr "Blokir dan/atau hapus percakapan ini"
 
-#: src/view/screens/ProfileList.tsx:781
+#: src/view/screens/ProfileList.tsx:789
 msgid "Block list"
 msgstr "Blokir daftar"
 
@@ -1105,7 +1113,7 @@ msgstr "Blokir daftar"
 msgid "Block or report"
 msgstr "Blokir atau lapor"
 
-#: src/view/screens/ProfileList.tsx:776
+#: src/view/screens/ProfileList.tsx:784
 msgid "Block these accounts?"
 msgstr "Blokir akun-akun ini?"
 
@@ -1148,7 +1156,7 @@ msgstr "Postingan diblokir."
 msgid "Blocking does not prevent this labeler from placing labels on your account."
 msgstr "Pemblokiran tidak menghalangi pelabel ini menerapkan label pada akun Anda."
 
-#: src/view/screens/ProfileList.tsx:778
+#: src/view/screens/ProfileList.tsx:786
 msgid "Blocking is public. Blocked accounts cannot reply in your threads, mention you, or otherwise interact with you."
 msgstr "Pemblokiran bersifat publik. Akun yang diblokir tidak dapat membalas utas Anda, menyebut Anda, atau berinteraksi dengan Anda."
 
@@ -1363,7 +1371,6 @@ msgid "Cancel reactivation and sign out"
 msgstr "Batalkan pengaktifan kembali dan keluar"
 
 #: src/screens/Search/Shell.tsx:341
-#: src/view/com/modals/ListAddRemoveUsers.tsx:88
 msgid "Cancel search"
 msgstr "Batal mencari"
 
@@ -1562,6 +1569,11 @@ msgstr "Hapus semua data penyimpanan"
 msgid "Clear all storage data (restart after this)"
 msgstr "Hapus semua data penyimpanan (mulai ulang setelah ini)"
 
+#: src/screens/Settings/AboutSettings.tsx:113
+#: src/screens/Settings/AboutSettings.tsx:117
+msgid "Clear image cache"
+msgstr ""
+
 #: src/components/forms/SearchInput.tsx:70
 msgid "Clear search query"
 msgstr "Hapus kueri pencarian"
@@ -1595,8 +1607,8 @@ msgid "Clip 🐴 clop 🐴"
 msgstr "Keletak 🐴 keletuk 🐴"
 
 #: src/components/dialogs/GifSelect.tsx:281
+#: src/components/dialogs/SearchablePeopleList.tsx:295
 #: src/components/dialogs/VerifyEmailDialog.tsx:289
-#: src/components/dms/dialogs/SearchablePeopleList.tsx:269
 #: src/components/dms/EmojiPopup.android.tsx:58
 #: src/components/dms/ReportDialog.tsx:381
 #: src/components/dms/ReportDialog.tsx:390
@@ -1885,7 +1897,7 @@ msgstr "Memasak"
 msgid "Copied"
 msgstr "Disalin"
 
-#: src/screens/Settings/AboutSettings.tsx:98
+#: src/screens/Settings/AboutSettings.tsx:148
 msgid "Copied build version to clipboard"
 msgstr "Versi build disalin ke papan klip"
 
@@ -1903,7 +1915,7 @@ msgstr "Disalin ke papan klip"
 msgid "Copied!"
 msgstr "Tersalin!"
 
-#: src/screens/Settings/AboutSettings.tsx:74
+#: src/screens/Settings/AboutSettings.tsx:124
 msgid "Copies build version to clipboard"
 msgstr "Menyalin versi build ke papan klip"
 
@@ -1948,7 +1960,7 @@ msgstr "Salin tautan"
 msgid "Copy Link"
 msgstr "Salin Tautan"
 
-#: src/view/screens/ProfileList.tsx:505
+#: src/view/screens/ProfileList.tsx:513
 msgid "Copy link to list"
 msgstr "Salin tautan daftar"
 
@@ -1994,7 +2006,7 @@ msgstr "Tidak dapat meninggalkan obrolan"
 msgid "Could not load feed"
 msgstr "Tidak dapat memuat feed"
 
-#: src/view/screens/ProfileList.tsx:1021
+#: src/view/screens/ProfileList.tsx:1029
 msgid "Could not load list"
 msgstr "Tidak dapat memuat daftar"
 
@@ -2150,7 +2162,7 @@ msgstr "Ikon bawaan"
 #: src/screens/StarterPack/StarterPackScreen.tsx:672
 #: src/screens/StarterPack/StarterPackScreen.tsx:744
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:767
-#: src/view/screens/ProfileList.tsx:760
+#: src/view/screens/ProfileList.tsx:768
 msgid "Delete"
 msgstr "Hapus"
 
@@ -2195,7 +2207,7 @@ msgstr "Hapus Percakapan"
 msgid "Delete for me"
 msgstr "Hapus untuk saya"
 
-#: src/view/screens/ProfileList.tsx:548
+#: src/view/screens/ProfileList.tsx:556
 msgid "Delete list"
 msgstr "Hapus daftar"
 
@@ -2226,7 +2238,7 @@ msgstr "Hapus paket pemula"
 msgid "Delete starter pack?"
 msgstr "Hapus paket pemula?"
 
-#: src/view/screens/ProfileList.tsx:755
+#: src/view/screens/ProfileList.tsx:763
 msgid "Delete this list?"
 msgstr "Hapus daftar ini?"
 
@@ -2277,12 +2289,12 @@ msgstr "Lepaskan kutipan"
 msgid "Detach quote post?"
 msgstr "Lepaskan kutipan ini?"
 
-#: src/screens/Settings/AboutSettings.tsx:87
+#: src/screens/Settings/AboutSettings.tsx:137
 msgctxt "toast"
 msgid "Developer mode disabled"
 msgstr "Mode pengembang dimatikan"
 
-#: src/screens/Settings/AboutSettings.tsx:81
+#: src/screens/Settings/AboutSettings.tsx:131
 msgctxt "toast"
 msgid "Developer mode enabled"
 msgstr "Mode pengembang dinyalakan"
@@ -2441,11 +2453,9 @@ msgstr "Domain terverifikasi!"
 #: src/view/com/modals/CropImage.web.tsx:112
 #: src/view/com/modals/InviteCodes.tsx:81
 #: src/view/com/modals/InviteCodes.tsx:124
-#: src/view/com/modals/ListAddRemoveUsers.tsx:143
 msgid "Done"
 msgstr "Selesai"
 
-#: src/view/com/modals/ListAddRemoveUsers.tsx:145
 #: src/view/com/modals/UserAddRemoveLists.tsx:113
 #: src/view/com/modals/UserAddRemoveLists.tsx:116
 msgctxt "action"
@@ -2567,7 +2577,7 @@ msgstr "Ubah pengaturan interaksi"
 msgid "Edit interests"
 msgstr ""
 
-#: src/view/screens/ProfileList.tsx:536
+#: src/view/screens/ProfileList.tsx:544
 msgid "Edit list details"
 msgstr "Ubah rincian daftar"
 
@@ -2906,10 +2916,6 @@ msgstr "Keluar dari proses pemotongan gambar"
 #: src/view/com/lightbox/Lightbox.web.tsx:110
 msgid "Exits image view"
 msgstr "Keluar dari tampilan gambar"
-
-#: src/view/com/modals/ListAddRemoveUsers.tsx:89
-msgid "Exits inputting search query"
-msgstr "Keluar dari memasukkan kueri pencarian"
 
 #: src/view/com/lightbox/Lightbox.web.tsx:184
 msgid "Expand alt text"
@@ -3259,7 +3265,7 @@ msgid "Flexible"
 msgstr "Fleksibel"
 
 #. User is not following this account, click to follow
-#: src/components/ProfileCard.tsx:369
+#: src/components/ProfileCard.tsx:387
 #: src/components/ProfileHoverCard/index.web.tsx:449
 #: src/components/ProfileHoverCard/index.web.tsx:460
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:232
@@ -3341,7 +3347,7 @@ msgid "Followers you know"
 msgstr "Pengikut yang Anda kenal"
 
 #. User is following this account, click to unfollow
-#: src/components/ProfileCard.tsx:363
+#: src/components/ProfileCard.tsx:381
 #: src/components/ProfileHoverCard/index.web.tsx:448
 #: src/components/ProfileHoverCard/index.web.tsx:459
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:228
@@ -3352,7 +3358,7 @@ msgstr "Pengikut yang Anda kenal"
 msgid "Following"
 msgstr "Mengikuti"
 
-#: src/components/ProfileCard.tsx:326
+#: src/components/ProfileCard.tsx:344
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:97
 msgid "Following {0}"
 msgstr "Mengikuti {0}"
@@ -3487,7 +3493,7 @@ msgstr "Pelanggaran hukum atau ketentuan layanan secara terang-terangan"
 #: src/screens/VideoFeed/index.tsx:1112
 #: src/view/com/auth/LoggedOut.tsx:72
 #: src/view/screens/NotFound.tsx:57
-#: src/view/screens/ProfileList.tsx:1030
+#: src/view/screens/ProfileList.tsx:1038
 msgid "Go back"
 msgstr "Kembali"
 
@@ -3498,7 +3504,7 @@ msgstr "Kembali"
 #: src/screens/Profile/ProfileFeed/index.tsx:94
 #: src/screens/StarterPack/StarterPackScreen.tsx:757
 #: src/view/screens/NotFound.tsx:56
-#: src/view/screens/ProfileList.tsx:1035
+#: src/view/screens/ProfileList.tsx:1043
 msgid "Go Back"
 msgstr "Kembali"
 
@@ -3791,7 +3797,7 @@ msgstr "Beralih ke status teks alt yang dibentangkan jika teks alt panjang"
 msgid "If you are not yet an adult according to the laws of your country, your parent or legal guardian must read these Terms on your behalf."
 msgstr "Jika Anda belum berusia dewasa menurut hukum negara Anda, orang tua atau wali sah Anda harus membaca Ketentuan ini atas nama Anda."
 
-#: src/view/screens/ProfileList.tsx:757
+#: src/view/screens/ProfileList.tsx:765
 msgid "If you delete this list, you won't be able to recover it."
 msgstr "Jika Anda menghapus daftar ini, Anda tidak dapat memulihkannya lagi."
 
@@ -3823,6 +3829,15 @@ msgstr "Ilegal dan Urgen"
 #: src/view/com/util/images/Gallery.tsx:71
 msgid "Image"
 msgstr "Gambar"
+
+#: src/screens/Settings/AboutSettings.tsx:61
+msgid "Image cache cleared"
+msgstr ""
+
+#. Android-only toast message which includes amount of space freed using localized number formatting
+#: src/screens/Settings/AboutSettings.tsx:47
+msgid "Image cache cleared, freed {0}"
+msgstr ""
 
 #: src/components/StarterPack/ShareDialog.tsx:76
 msgid "Image saved to your camera roll!"
@@ -4181,7 +4196,7 @@ msgstr "Daftar"
 msgid "List Avatar"
 msgstr "Avatar Daftar"
 
-#: src/view/screens/ProfileList.tsx:430
+#: src/view/screens/ProfileList.tsx:438
 msgctxt "toast"
 msgid "List blocked"
 msgstr "Daftar diblokir"
@@ -4199,7 +4214,7 @@ msgstr "Daftar oleh <0/>"
 msgid "List by you"
 msgstr "Daftar oleh Anda"
 
-#: src/view/screens/ProfileList.tsx:477
+#: src/view/screens/ProfileList.tsx:485
 msgctxt "toast"
 msgid "List deleted"
 msgstr "Daftar dihapus"
@@ -4208,11 +4223,11 @@ msgstr "Daftar dihapus"
 msgid "List has been hidden"
 msgstr "Daftar telah disembunyikan"
 
-#: src/view/screens/ProfileList.tsx:172
+#: src/view/screens/ProfileList.tsx:176
 msgid "List Hidden"
 msgstr "Daftar Disembunyikan"
 
-#: src/view/screens/ProfileList.tsx:394
+#: src/view/screens/ProfileList.tsx:402
 msgctxt "toast"
 msgid "List muted"
 msgstr "Daftar dibisukan"
@@ -4221,12 +4236,12 @@ msgstr "Daftar dibisukan"
 msgid "List Name"
 msgstr "Nama Daftar"
 
-#: src/view/screens/ProfileList.tsx:448
+#: src/view/screens/ProfileList.tsx:456
 msgctxt "toast"
 msgid "List unblocked"
 msgstr "Daftar batal diblokir"
 
-#: src/view/screens/ProfileList.tsx:412
+#: src/view/screens/ProfileList.tsx:420
 msgctxt "toast"
 msgid "List unmuted"
 msgstr "Daftar batal dibisukan"
@@ -4259,7 +4274,7 @@ msgstr "Muat notifikasi baru"
 #: src/screens/Profile/ProfileFeed/index.tsx:221
 #: src/screens/Profile/Sections/Feed.tsx:98
 #: src/view/com/feeds/FeedPage.tsx:155
-#: src/view/screens/ProfileList.tsx:870
+#: src/view/screens/ProfileList.tsx:878
 msgid "Load new posts"
 msgstr "Muat postingan baru"
 
@@ -4486,7 +4501,7 @@ msgstr "Feed lainnya"
 
 #: src/view/com/profile/ProfileMenu.tsx:194
 #: src/view/com/profile/ProfileMenu.tsx:200
-#: src/view/screens/ProfileList.tsx:742
+#: src/view/screens/ProfileList.tsx:750
 msgid "More options"
 msgstr "Opsi lainnya"
 
@@ -4526,7 +4541,7 @@ msgstr "Bisukan {tag}"
 msgid "Mute account"
 msgstr "Bisukan akun"
 
-#: src/view/screens/ProfileList.tsx:649
+#: src/view/screens/ProfileList.tsx:657
 msgid "Mute accounts"
 msgstr "Bisukan akun"
 
@@ -4539,11 +4554,11 @@ msgstr "Bisukan percakapan"
 msgid "Mute in:"
 msgstr "Bisukan pada:"
 
-#: src/view/screens/ProfileList.tsx:771
+#: src/view/screens/ProfileList.tsx:779
 msgid "Mute list"
 msgstr "Bisukan daftar"
 
-#: src/view/screens/ProfileList.tsx:766
+#: src/view/screens/ProfileList.tsx:774
 msgid "Mute these accounts?"
 msgstr "Bisukan akun-akun ini?"
 
@@ -4602,7 +4617,7 @@ msgstr "Dibisukan oleh \"{0}\""
 msgid "Muted words & tags"
 msgstr "Kata & tagar yang dibisukan"
 
-#: src/view/screens/ProfileList.tsx:768
+#: src/view/screens/ProfileList.tsx:776
 msgid "Muting is private. Muted accounts can interact with you, but you will not see their posts or receive notifications from them."
 msgstr "Pembisuan bersifat privat. Akun yang dibisukan tetap dapat berinteraksi dengan Anda, tetapi Anda tidak akan melihat postingan atau notifikasi dari mereka."
 
@@ -4722,8 +4737,8 @@ msgstr "Kata Sandi Baru"
 #: src/view/screens/Feeds.tsx:549
 #: src/view/screens/Notifications.tsx:165
 #: src/view/screens/Profile.tsx:507
-#: src/view/screens/ProfileList.tsx:252
-#: src/view/screens/ProfileList.tsx:285
+#: src/view/screens/ProfileList.tsx:250
+#: src/view/screens/ProfileList.tsx:288
 msgid "New post"
 msgstr "Postingan baru"
 
@@ -4802,7 +4817,7 @@ msgstr "Tidak ditemukan feed apa pun. Coba pencarian lain."
 msgid "No likes yet"
 msgstr "Belum ada yang menyukai"
 
-#: src/components/ProfileCard.tsx:348
+#: src/components/ProfileCard.tsx:366
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:118
 msgid "No longer following {0}"
 msgstr "Tidak lagi mengikuti {0}"
@@ -4845,7 +4860,7 @@ msgstr "Belum ada postingan ulang"
 msgid "No result"
 msgstr "Tidak ada hasil"
 
-#: src/components/dms/dialogs/SearchablePeopleList.tsx:204
+#: src/components/dialogs/SearchablePeopleList.tsx:223
 #: src/components/ProgressGuide/FollowDialog.tsx:212
 msgid "No results"
 msgstr "Tidak ada hasil"
@@ -4865,7 +4880,6 @@ msgstr "Tidak ditemukan hasil untuk \"{query}\""
 #: src/screens/Search/SearchResults.tsx:248
 #: src/screens/Search/SearchResults.tsx:284
 #: src/screens/Search/SearchResults.tsx:329
-#: src/view/com/modals/ListAddRemoveUsers.tsx:128
 msgid "No results found for {query}"
 msgstr "Tidak ditemukan hasil untuk {query}"
 
@@ -5333,7 +5347,7 @@ msgstr "Jeda video"
 
 #: src/screens/Search/SearchResults.tsx:62
 #: src/screens/StarterPack/StarterPackScreen.tsx:184
-#: src/view/screens/ProfileList.tsx:166
+#: src/view/screens/ProfileList.tsx:170
 msgid "People"
 msgstr "Profil"
 
@@ -5379,7 +5393,7 @@ msgstr "Sematkan feed"
 msgid "Pin Feed"
 msgstr "Sematkan Feed"
 
-#: src/view/screens/ProfileList.tsx:706
+#: src/view/screens/ProfileList.tsx:714
 msgid "Pin to home"
 msgstr "Sematkan ke beranda"
 
@@ -5405,7 +5419,7 @@ msgstr "{0} disematkan ke Beranda"
 msgid "Pinned Feeds"
 msgstr "Feed Tersemat"
 
-#: src/view/screens/ProfileList.tsx:353
+#: src/view/screens/ProfileList.tsx:361
 msgid "Pinned to your feeds"
 msgstr "Disematkan ke daftar feed Anda"
 
@@ -5628,7 +5642,7 @@ msgstr "Postingan dilepaskan"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:186
 #: src/view/screens/Profile.tsx:222
-#: src/view/screens/ProfileList.tsx:166
+#: src/view/screens/ProfileList.tsx:170
 msgid "Posts"
 msgstr "Postingan"
 
@@ -5697,8 +5711,8 @@ msgid "Privacy and Security"
 msgstr "Privasi dan Keamanan"
 
 #: src/Navigation.tsx:291
-#: src/screens/Settings/AboutSettings.tsx:51
-#: src/screens/Settings/AboutSettings.tsx:54
+#: src/screens/Settings/AboutSettings.tsx:89
+#: src/screens/Settings/AboutSettings.tsx:92
 #: src/view/screens/PrivacyPolicy.tsx:31
 #: src/view/shell/Drawer.tsx:634
 #: src/view/shell/Drawer.tsx:635
@@ -5891,13 +5905,13 @@ msgstr "Tolak permintaan obrolan"
 msgid "Reload conversations"
 msgstr "Memuat ulang percakapan"
 
+#: src/components/dialogs/lists/ListAddRemoveUsersDialog.tsx:171
 #: src/components/dialogs/MutedWords.tsx:438
 #: src/components/FeedCard.tsx:343
 #: src/components/StarterPack/Wizard/WizardListCard.tsx:102
 #: src/components/StarterPack/Wizard/WizardListCard.tsx:109
 #: src/screens/Settings/Settings.tsx:489
 #: src/view/com/feeds/FeedSourceCard.tsx:322
-#: src/view/com/modals/ListAddRemoveUsers.tsx:269
 #: src/view/com/modals/UserAddRemoveLists.tsx:235
 #: src/view/com/posts/PostFeedErrorMessage.tsx:213
 msgid "Remove"
@@ -5948,7 +5962,7 @@ msgstr "Hapus feed?"
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:320
 #: src/view/com/feeds/FeedSourceCard.tsx:190
 #: src/view/com/feeds/FeedSourceCard.tsx:268
-#: src/view/screens/ProfileList.tsx:520
+#: src/view/screens/ProfileList.tsx:528
 #: src/view/screens/SavedFeeds.tsx:342
 msgid "Remove from my feeds"
 msgstr "Hapus dari daftar feed saya"
@@ -5996,6 +6010,10 @@ msgstr "Hapus berkas subtitel"
 msgid "Remove this feed from your saved feeds"
 msgstr "Hapus feed ini dari feed tersimpan Anda"
 
+#: src/components/dialogs/lists/ListAddRemoveUsersDialog.tsx:157
+msgid "Remove user from list"
+msgstr ""
+
 #: src/view/com/util/post-embeds/QuoteEmbed.tsx:110
 msgid "Removed by author"
 msgstr "Dilepaskan oleh pemosting"
@@ -6004,7 +6022,7 @@ msgstr "Dilepaskan oleh pemosting"
 msgid "Removed by you"
 msgstr "Dilepaskan oleh Anda"
 
-#: src/view/com/modals/ListAddRemoveUsers.tsx:200
+#: src/components/dialogs/lists/ListAddRemoveUsersDialog.tsx:117
 #: src/view/com/modals/UserAddRemoveLists.tsx:170
 msgid "Removed from list"
 msgstr "Dihapus dari daftar"
@@ -6019,7 +6037,7 @@ msgstr "Dihapus dari feed tersimpan"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:122
 #: src/view/com/posts/FeedShutdownMsg.tsx:44
-#: src/view/screens/ProfileList.tsx:384
+#: src/view/screens/ProfileList.tsx:392
 msgid "Removed from your feeds"
 msgstr "Dihapus dari daftar feed Anda"
 
@@ -6140,7 +6158,7 @@ msgstr "Dialog laporan"
 msgid "Report feed"
 msgstr "Laporkan feed"
 
-#: src/view/screens/ProfileList.tsx:562
+#: src/view/screens/ProfileList.tsx:570
 msgid "Report list"
 msgstr "Laporkan daftar"
 
@@ -6347,7 +6365,7 @@ msgstr "Kembali ke beranda"
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:540
 #: src/screens/VideoFeed/index.tsx:1109
 #: src/view/screens/NotFound.tsx:60
-#: src/view/screens/ProfileList.tsx:1031
+#: src/view/screens/ProfileList.tsx:1039
 msgid "Returns to previous page"
 msgstr "Kembali ke halaman sebelumnya"
 
@@ -6424,7 +6442,7 @@ msgid "Saved to your camera roll"
 msgstr "Disimpan ke rol kamera Anda"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:131
-#: src/view/screens/ProfileList.tsx:364
+#: src/view/screens/ProfileList.tsx:372
 msgid "Saved to your feeds"
 msgstr "Disimpan ke daftar feed Anda"
 
@@ -6448,16 +6466,15 @@ msgstr "Katakan halo!"
 msgid "Science"
 msgstr "Sains"
 
-#: src/view/screens/ProfileList.tsx:988
+#: src/view/screens/ProfileList.tsx:996
 msgid "Scroll to top"
 msgstr "Gulir ke atas"
 
-#: src/components/dms/dialogs/SearchablePeopleList.tsx:491
+#: src/components/dialogs/SearchablePeopleList.tsx:513
 #: src/components/forms/SearchInput.tsx:34
 #: src/components/forms/SearchInput.tsx:36
 #: src/screens/Search/Shell.tsx:307
 #: src/screens/Search/Shell.tsx:464
-#: src/view/com/modals/ListAddRemoveUsers.tsx:76
 #: src/view/shell/bottom-bar/BottomBar.tsx:182
 msgid "Search"
 msgstr "Cari"
@@ -6504,10 +6521,6 @@ msgstr ""
 msgid "Search for posts, users, or feeds"
 msgstr "Cari postingan, pengguna, atau feed"
 
-#: src/view/com/modals/ListAddRemoveUsers.tsx:71
-msgid "Search for users"
-msgstr "Cari pengguna"
-
 #: src/components/dialogs/GifSelect.tsx:177
 msgid "Search GIFs"
 msgstr "Cari GIF"
@@ -6521,7 +6534,7 @@ msgstr "Cari postingan saya"
 msgid "Search posts"
 msgstr "Cari postingan"
 
-#: src/components/dms/dialogs/SearchablePeopleList.tsx:511
+#: src/components/dialogs/SearchablePeopleList.tsx:533
 #: src/components/ProgressGuide/FollowDialog.tsx:702
 msgid "Search profiles"
 msgstr "Cari profil"
@@ -6534,7 +6547,7 @@ msgstr "Cari di Tenor"
 msgid "Search..."
 msgstr "Cari..."
 
-#: src/components/dms/dialogs/SearchablePeopleList.tsx:512
+#: src/components/dialogs/SearchablePeopleList.tsx:534
 #: src/components/ProgressGuide/FollowDialog.tsx:703
 msgid "Searches for profiles"
 msgstr "Mencari profil"
@@ -6791,7 +6804,7 @@ msgstr "Bermuatan Seksual"
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:498
 #: src/view/com/util/forms/PostDropdownBtnMenuItems.tsx:507
 #: src/view/com/util/post-ctrls/PostCtrls.tsx:350
-#: src/view/screens/ProfileList.tsx:505
+#: src/view/screens/ProfileList.tsx:513
 msgid "Share"
 msgstr "Bagikan"
 
@@ -7164,17 +7177,17 @@ msgstr "Olahraga"
 msgid "Start a new chat"
 msgstr "Mulai obrolan baru"
 
-#: src/view/screens/ProfileList.tsx:838
-#: src/view/screens/ProfileList.tsx:959
+#: src/view/screens/ProfileList.tsx:846
+#: src/view/screens/ProfileList.tsx:967
 msgid "Start adding people"
 msgstr "Mulai tambahkan orang"
 
-#: src/view/screens/ProfileList.tsx:845
-#: src/view/screens/ProfileList.tsx:966
+#: src/view/screens/ProfileList.tsx:853
+#: src/view/screens/ProfileList.tsx:974
 msgid "Start adding people!"
 msgstr "Mulai tambahkan orang!"
 
-#: src/components/dms/dialogs/SearchablePeopleList.tsx:357
+#: src/components/dialogs/SearchablePeopleList.tsx:382
 msgid "Start chat with {displayName}"
 msgstr "Mulai obrolan dengan {displayName}"
 
@@ -7210,8 +7223,8 @@ msgstr "Paket Pemula"
 msgid "Starter packs let you easily share your favorite feeds and people with your friends."
 msgstr "Paket pemula memudahkan Anda untuk berbagi feed dan akun favorit Anda dengan teman."
 
-#: src/screens/Settings/AboutSettings.tsx:59
-#: src/screens/Settings/AboutSettings.tsx:62
+#: src/screens/Settings/AboutSettings.tsx:97
+#: src/screens/Settings/AboutSettings.tsx:100
 msgid "Status Page"
 msgstr "Halaman Status"
 
@@ -7249,7 +7262,7 @@ msgstr "Ajukan Banding"
 msgid "Submit report"
 msgstr "Kirim laporan"
 
-#: src/view/screens/ProfileList.tsx:733
+#: src/view/screens/ProfileList.tsx:741
 msgid "Subscribe"
 msgstr "Berlangganan"
 
@@ -7265,7 +7278,7 @@ msgstr "Berlangganan Pelabel"
 msgid "Subscribe to this labeler"
 msgstr "Berlangganan pelabel ini"
 
-#: src/view/screens/ProfileList.tsx:729
+#: src/view/screens/ProfileList.tsx:737
 msgid "Subscribe to this list"
 msgstr "Berlangganan ke daftar ini"
 
@@ -7329,8 +7342,8 @@ msgstr "Beralih ke {0}"
 msgid "System"
 msgstr "Sistem"
 
-#: src/screens/Settings/AboutSettings.tsx:66
-#: src/screens/Settings/AboutSettings.tsx:69
+#: src/screens/Settings/AboutSettings.tsx:104
+#: src/screens/Settings/AboutSettings.tsx:107
 #: src/screens/Settings/Settings.tsx:339
 msgid "System log"
 msgstr "Log sistem"
@@ -7384,8 +7397,8 @@ msgid "Terms"
 msgstr "Ketentuan"
 
 #: src/Navigation.tsx:296
-#: src/screens/Settings/AboutSettings.tsx:43
-#: src/screens/Settings/AboutSettings.tsx:46
+#: src/screens/Settings/AboutSettings.tsx:81
+#: src/screens/Settings/AboutSettings.tsx:84
 #: src/view/screens/TermsOfService.tsx:31
 #: src/view/shell/Drawer.tsx:627
 #: src/view/shell/Drawer.tsx:629
@@ -7558,8 +7571,8 @@ msgid "There was an issue connecting to Tenor."
 msgstr "Ada masalah saat menghubungkan ke Tenor."
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:173
-#: src/view/screens/ProfileList.tsx:367
-#: src/view/screens/ProfileList.tsx:386
+#: src/view/screens/ProfileList.tsx:375
+#: src/view/screens/ProfileList.tsx:394
 #: src/view/screens/SavedFeeds.tsx:85
 msgid "There was an issue contacting the server"
 msgstr "Ada masalah saat menghubungi server"
@@ -7636,10 +7649,10 @@ msgstr "Ada masalah! {0}"
 #: src/screens/List/ListHiddenScreen.tsx:63
 #: src/screens/List/ListHiddenScreen.tsx:77
 #: src/screens/List/ListHiddenScreen.tsx:99
-#: src/view/screens/ProfileList.tsx:403
-#: src/view/screens/ProfileList.tsx:421
-#: src/view/screens/ProfileList.tsx:439
-#: src/view/screens/ProfileList.tsx:457
+#: src/view/screens/ProfileList.tsx:411
+#: src/view/screens/ProfileList.tsx:429
+#: src/view/screens/ProfileList.tsx:447
+#: src/view/screens/ProfileList.tsx:465
 msgid "There was an issue. Please check your internet connection and try again."
 msgstr "Ada masalah. Periksa koneksi internet Anda dan coba lagi."
 
@@ -7723,7 +7736,7 @@ msgstr "Feed ini kosong! Anda mungkin perlu mengikuti lebih banyak pengguna atau
 
 #: src/components/StarterPack/Main/PostsList.tsx:36
 #: src/screens/Profile/ProfileFeed/index.tsx:189
-#: src/view/screens/ProfileList.tsx:835
+#: src/view/screens/ProfileList.tsx:843
 msgid "This feed is empty."
 msgstr "Feed ini kosong."
 
@@ -7767,7 +7780,7 @@ msgstr "Daftar yang dibuat oleh <0>{0}</0> ini mengandung kemungkinan pelanggara
 msgid "This list – created by you – contains possible violations of Bluesky's community guidelines in its name or description."
 msgstr "Daftar ini – dibuat oleh Anda –mengandung kemungkinan pelanggaran pedoman komunitas Bluesky pada nama atau deskripsinya."
 
-#: src/view/screens/ProfileList.tsx:954
+#: src/view/screens/ProfileList.tsx:962
 msgid "This list is empty."
 msgstr "Daftar ini kosong."
 
@@ -8005,7 +8018,7 @@ msgstr "Tidak dapat menghapus"
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:196
 #: src/screens/Profile/Header/ProfileHeaderStandard.tsx:281
 #: src/view/com/profile/ProfileMenu.tsx:399
-#: src/view/screens/ProfileList.tsx:715
+#: src/view/screens/ProfileList.tsx:723
 msgid "Unblock"
 msgstr "Buka blokir"
 
@@ -8026,7 +8039,7 @@ msgstr "Buka blokir akun"
 msgid "Unblock Account?"
 msgstr "Buka Blokir Akun?"
 
-#: src/view/screens/ProfileList.tsx:612
+#: src/view/screens/ProfileList.tsx:620
 msgid "Unblock list"
 msgstr ""
 
@@ -8075,7 +8088,7 @@ msgctxt "video"
 msgid "Unmute"
 msgstr "Bunyikan"
 
-#: src/view/screens/ProfileList.tsx:722
+#: src/view/screens/ProfileList.tsx:730
 msgid "Unmute"
 msgstr "Bunyikan"
 
@@ -8095,7 +8108,7 @@ msgstr "Bunyikan akun"
 msgid "Unmute conversation"
 msgstr "Bunyikan percakapan"
 
-#: src/view/screens/ProfileList.tsx:597
+#: src/view/screens/ProfileList.tsx:605
 msgid "Unmute list"
 msgstr ""
 
@@ -8108,7 +8121,7 @@ msgstr "Bunyikan utas"
 msgid "Unmute video"
 msgstr "Bunyikan video"
 
-#: src/view/screens/ProfileList.tsx:706
+#: src/view/screens/ProfileList.tsx:714
 msgid "Unpin"
 msgstr "Lepas sematan"
 
@@ -8131,7 +8144,7 @@ msgstr "Lepaskan sematan dari beranda"
 msgid "Unpin from profile"
 msgstr "Lepas sematan dari profil"
 
-#: src/view/screens/ProfileList.tsx:577
+#: src/view/screens/ProfileList.tsx:585
 msgid "Unpin moderation list"
 msgstr "Lepas sematan daftar moderasi"
 
@@ -8139,7 +8152,7 @@ msgstr "Lepas sematan daftar moderasi"
 msgid "Unpinned {0} from Home"
 msgstr "{0} dilepaskan dari Beranda"
 
-#: src/view/screens/ProfileList.tsx:354
+#: src/view/screens/ProfileList.tsx:362
 msgid "Unpinned from your feeds"
 msgstr "Dilepaskan dari daftar feed Anda"
 
@@ -8393,8 +8406,8 @@ msgstr "Verifikasi email Anda"
 msgid "Verify Your Email"
 msgstr "Verifikasi Email Anda"
 
-#: src/screens/Settings/AboutSettings.tsx:73
-#: src/screens/Settings/AboutSettings.tsx:102
+#: src/screens/Settings/AboutSettings.tsx:123
+#: src/screens/Settings/AboutSettings.tsx:152
 msgid "Version {appVersion}"
 msgstr "Versi {appVersion}"
 
@@ -8643,7 +8656,7 @@ msgstr "Kami akan memberi tahu Anda ketika akun Anda siap."
 msgid "We'll use this to help customize your experience."
 msgstr "Kami akan menggunakan ini untuk menyesuaikan pengalaman Anda."
 
-#: src/components/dms/dialogs/SearchablePeopleList.tsx:92
+#: src/components/dialogs/SearchablePeopleList.tsx:107
 #: src/components/ProgressGuide/FollowDialog.tsx:172
 msgid "We're having network issues, try again"
 msgstr "Kami mengalami masalah jaringan, coba lagi"
@@ -8652,7 +8665,7 @@ msgstr "Kami mengalami masalah jaringan, coba lagi"
 msgid "We're so excited to have you join us!"
 msgstr "Kami sangat senang Anda bergabung dengan kami!"
 
-#: src/view/screens/ProfileList.tsx:113
+#: src/view/screens/ProfileList.tsx:117
 msgid "We're sorry, but we were unable to resolve this list. If this persists, please contact the list creator, @{handleOrDid}."
 msgstr "Maaf, kami tidak dapat memuat daftar ini. Jika masalah berlanjut, silakan hubungi pembuat daftar, @{handleOrDid}."
 
