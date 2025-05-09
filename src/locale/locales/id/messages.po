@@ -8,7 +8,7 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: bsky-social-id\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-05-08 04:57\n"
+"PO-Revision-Date: 2025-05-09 04:53\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -3971,8 +3971,9 @@ msgid "Image cache cleared, freed {0}"
 msgstr ""
 
 #: src/components/StarterPack/ShareDialog.tsx:76
-msgid "Image saved to your camera roll!"
-msgstr "Gambar telah disimpan ke rol kamera Anda!"
+#: src/view/com/lightbox/Lightbox.tsx:44
+msgid "Image saved"
+msgstr ""
 
 #: src/components/moderation/ReportDialog/utils/useReportOptions.ts:49
 #: src/lib/moderation/useReportOptions.ts:49
@@ -6653,10 +6654,6 @@ msgstr "Simpan ke daftar feed saya"
 #: src/view/screens/SavedFeeds.tsx:164
 msgid "Saved Feeds"
 msgstr "Feed Tersimpan"
-
-#: src/view/com/lightbox/Lightbox.tsx:44
-msgid "Saved to your camera roll"
-msgstr "Disimpan ke rol kamera Anda"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:131
 #: src/view/screens/ProfileList.tsx:372
